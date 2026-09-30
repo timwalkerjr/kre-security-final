@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "linkTypography": {
+      "fontFamily": "Manrope",
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "rawFontSize": "16px",
+      "normalizedFontSize": "16px",
+      "source": "computed-navigation",
+      "confidence": "high"
+    }
+  },
+  "warnings": []
+}

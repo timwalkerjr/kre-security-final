@@ -1,0 +1,53 @@
+---
+import '@/styles/global.css';
+import Navigation from '@/components/Navigation.astro';
+import Footer from '@/components/Footer.astro';
+import SEOHead from '@/components/SEOHead.astro';
+import { SITE } from '@/config/site';
+
+export interface Props {
+  headerVariant?: 'transparent' | 'solid';
+  title: string;
+  description?: string;
+  image?: string;
+  type?: string;
+  jsonLd?: Record<string, any>;
+  noIndex?: boolean;
+  canonicalUrl?: string;
+  lang?: string;
+}
+
+const { title, description, image, type, jsonLd, noIndex, canonicalUrl, lang } = Astro.props;
+const htmlLang = lang ?? Astro.currentLocale ?? SITE.lang;
+// ps:header-variant — per-page header look, forwarded to Navigation.
+const headerVariant =
+  (Astro.props as { headerVariant?: 'transparent' | 'solid' })
+    .headerVariant ?? 'transparent';
+
+---
+
+<!DOCTYPE html>
+<html lang={htmlLang}>
+  <head>
+    <link rel="preconnect" href="https://pagesmith-cdn.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link rel="preload" href="/_pagesmith/fonts/manrope-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/_pagesmith/fonts/space-grotesk-700.woff2" as="font" type="font/woff2" crossorigin />
+    <SEOHead
+      title={title}
+      description={description}
+      image={image}
+      type={type}
+      jsonLd={jsonLd}
+      noIndex={noIndex}
+      canonicalUrl={canonicalUrl}
+    />
+  </head>
+  <body class="bg-background text-foreground font-sans antialiased selection:bg-primary selection:text-primary-foreground" data-ps="src/layouts/BaseLayout.astro:4vj8al">
+    <Navigation variant={headerVariant} />
+    <main data-ps="src/layouts/BaseLayout.astro:yuyoow">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

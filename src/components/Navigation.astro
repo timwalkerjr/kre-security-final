@@ -1,0 +1,223 @@
+---
+// Navigation matching KRE Security exact header
+// ps:header-variant — BaseLayout passes variant="solid" on pages whose source
+// shows the header solid at the top; the scroll script below keeps it so.
+const headerVariant =
+  (Astro.props as { variant?: 'transparent' | 'solid' }).variant ??
+  'transparent';
+
+---
+
+<header data-header-variant={headerVariant} id="navbar" class="sticky top-0 z-50 bg-[#070E17] border-b border-[#1A2638] transition-colors duration-200" data-ps="src/components/Navigation.astro:1zp36w">
+  <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8" data-ps="src/components/Navigation.astro:lxl1mu">
+    <div class="flex items-center justify-between h-[76px]" data-ps="src/components/Navigation.astro:lxl1mv">
+      
+      <!-- Brand Logo + Name -->
+      <a href="/" class="flex items-center gap-3 no-underline group" data-ps="src/components/Navigation.astro:7vkjm7">
+        <img
+          src="https://pagesmith-cdn.com/fe6bcc20/images/kre-security-gold-logo-670a49-1024.webp"
+          alt="KRE Security"
+          class="h-11 w-auto object-contain transition-transform group-hover:scale-105" data-ps="src/components/Navigation.astro:jfbxaq" />
+        <div class="flex flex-col" data-ps="src/components/Navigation.astro:lxl1mw">
+          <span class="text-[17px] font-bold text-white font-['Space_Grotesk'] tracking-wider leading-none" data-ps="src/components/Navigation.astro:7xpcao">
+            KRE SECURITY <span class="text-[#DBA400]" data-ps="src/components/Navigation.astro:7xpcan">LLC.</span>
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden xl:flex items-center gap-1 2xl:gap-2" data-ps="src/components/Navigation.astro:nrytxv">
+        <a href="/" class="px-3 py-2 text-[14px] font-semibold text-white hover:text-[#DBA400] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjm8">
+          HOME
+        </a>
+
+        <!-- Services Dropdown -->
+        <div class="relative group" data-ps="src/components/Navigation.astro:lxl1mx">
+          <button type="button" class="flex items-center gap-1 px-3 py-2 text-[14px] font-semibold text-white/90 group-hover:text-[#DBA400] transition-colors" data-ps="src/components/Navigation.astro:4mv3h">
+            <span data-ps="src/components/Navigation.astro:7xpcam">SERVICES</span>
+            <svg class="w-3.5 h-3.5 opacity-70 group-hover:opacity-100 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="absolute left-0 top-full hidden group-hover:block group-focus-within:block w-72 bg-[#0B1522] border border-[#1E2D42] rounded-md shadow-2xl py-2 z-50" data-ps="src/components/Navigation.astro:lxl1my">
+            <a href="/security-services-pa/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjm9">Security Services PA</a>
+            <a href="/security-guards-pa/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjma">Security Guards PA</a>
+            <a href="/armed-security-pa/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjmb">Armed Security PA</a>
+            <a href="/armed-security-guards-quakertown-pa/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjmc">Armed Security Guards Quakertown</a>
+            <a href="/vehicle-patrol/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjmd">Vehicle Patrol</a>
+            <a href="/security-checks/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjme">Security Checks</a>
+            <a href="/school-security/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjn0">School Security</a>
+          </div>
+        </div>
+
+        <!-- Specialized Dropdown -->
+        <div class="relative group" data-ps="src/components/Navigation.astro:lxl1mz">
+          <button type="button" class="flex items-center gap-1 px-3 py-2 text-[14px] font-semibold text-white/90 group-hover:text-[#DBA400] transition-colors" data-ps="src/components/Navigation.astro:4mv3i">
+            <span data-ps="src/components/Navigation.astro:7xpcal">SPECIALIZED</span>
+            <svg class="w-3.5 h-3.5 opacity-70 group-hover:opacity-100 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="absolute left-0 top-full hidden group-hover:block group-focus-within:block w-72 bg-[#0B1522] border border-[#1E2D42] rounded-md shadow-2xl py-2 z-50" data-ps="src/components/Navigation.astro:lxl1n0">
+            <a href="https://www.easternpaeducators.com/" target="_blank" rel="noopener" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjn1">Eastern PA Educators</a>
+            <a href="/logistical-security/" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjn2">Logistical Security</a>
+            <a href="/warehouse-distribution-security/" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjn3">Warehouse Security</a>
+            <a href="/fire-watch/" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjn4">Fire Watch Services</a>
+            <a href="/school-event-staff/" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjn5">School Event Staff</a>
+            <a href="/event-traffic-control/" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjn6">Event Traffic Control</a>
+            <a href="/armed-money-escorts/" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjn7">Armed Money Escorts</a>
+            <a href="/in-home-security/" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjn8">In-Home Security</a>
+            <a href="/private-investigations/" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjn9">Private Investigations</a>
+            <a href="/process-services/" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjnv">Process Services</a>
+            <a href="/first-aid-training/" class="block px-4 py-2 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjnw">First Aid Training</a>
+            <div class="border-t border-[#1E2D42] my-1" data-ps="src/components/Navigation.astro:lxl1n1"></div>
+            <a href="/act-67-certified-services/" class="block px-4 py-2 text-[13px] font-bold text-[#DBA400] hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjnx">ACT 67 TRAINING SERVICES</a>
+          </div>
+        </div>
+
+        <!-- About Dropdown -->
+        <div class="relative group" data-ps="src/components/Navigation.astro:lxl1n2">
+          <button type="button" class="flex items-center gap-1 px-3 py-2 text-[14px] font-semibold text-white/90 group-hover:text-[#DBA400] transition-colors" data-ps="src/components/Navigation.astro:4mv3j">
+            <span data-ps="src/components/Navigation.astro:7xpcak">ABOUT</span>
+            <svg class="w-3.5 h-3.5 opacity-70 group-hover:opacity-100 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="absolute left-0 top-full hidden group-hover:block group-focus-within:block w-60 bg-[#0B1522] border border-[#1E2D42] rounded-md shadow-2xl py-2 z-50" data-ps="src/components/Navigation.astro:lxl1n3">
+            <a href="/security-services-pa/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjny">Our Company</a>
+            <a href="/employment/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjnz">Employment</a>
+            <a href="/employee-application/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjo0">Application</a>
+            <a href="/testimonials/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjo1">Testimonials</a>
+            <a href="/security-company-faq/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjo2">FAQ</a>
+            <a href="/contact/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjo3">Contact Us</a>
+          </div>
+        </div>
+
+        <!-- News Dropdown -->
+        <div class="relative group" data-ps="src/components/Navigation.astro:gqvsd5">
+          <button type="button" class="flex items-center gap-1 px-3 py-2 text-[14px] font-semibold text-white/90 group-hover:text-[#DBA400] transition-colors" data-ps="src/components/Navigation.astro:4mv45">
+            <span data-ps="src/components/Navigation.astro:7xpcaj">NEWS</span>
+            <svg class="w-3.5 h-3.5 opacity-70 group-hover:opacity-100 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="absolute right-0 top-full hidden group-hover:block group-focus-within:block w-64 bg-[#0B1522] border border-[#1E2D42] rounded-md shadow-2xl py-2 z-50" data-ps="src/components/Navigation.astro:gqvsd6">
+            <a href="/blog/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjo4">Recent News & Blog</a>
+            <a href="/post/building-safer-cities/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjoq">Building Safer Cities</a>
+            <a href="/post/6-kre-school-security-division-just-attended/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjor">School Security Updates</a>
+            <a href="/post/admissions-theft-found-at-a-local-event/" class="block px-4 py-2.5 text-[13px] text-gray-300 hover:text-white hover:bg-[#152538] transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjos">Local Event Security</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Right Action Button -->
+      <div class="hidden lg:flex items-center" data-ps="src/components/Navigation.astro:gqvsd7">
+        <a
+          href="tel:610-562-0971"
+          class="inline-flex items-center justify-center bg-[#DBA400] hover:bg-[#EDBF35] text-[#0B1522] font-bold text-[15px] font-['Space_Grotesk'] px-6 py-2.5 rounded shadow-md transition-all no-underline"
+         data-ps="src/components/Navigation.astro:7vkjot">
+          610-562-0971
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <div class="flex xl:hidden items-center gap-3" data-ps="src/components/Navigation.astro:gqvsd8">
+        <a
+          href="tel:610-562-0971"
+          class="inline-flex items-center bg-[#DBA400] text-[#0B1522] font-bold text-[13px] font-['Space_Grotesk'] px-3 py-1.5 rounded no-underline sm:hidden"
+         data-ps="src/components/Navigation.astro:7vkjou">
+          Call
+        </a>
+        <button
+          id="mobile-menu-button"
+          type="button"
+          class="p-2 text-white hover:text-[#DBA400] transition-colors"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+         data-ps="src/components/Navigation.astro:4mv46">
+          <svg id="menu-icon-open" class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="menu-icon-close" class="w-7 h-7 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Mobile Menu Dropdown -->
+  <div
+    id="mobile-menu"
+    class="hidden xl:hidden bg-[#070E17] border-t border-[#1A2638] px-4 pt-3 pb-6 max-h-[80vh] overflow-y-auto"
+   data-ps="src/components/Navigation.astro:gqvsd9">
+    <div class="flex flex-col gap-1" data-ps="src/components/Navigation.astro:gqvsda">
+      <a href="/" class="py-2.5 px-3 text-white font-semibold rounded hover:bg-[#102032] no-underline" data-ps="src/components/Navigation.astro:7vkjov">HOME</a>
+
+      <div class="py-2 px-3 text-[#DBA400] text-xs font-bold uppercase tracking-wider" data-ps="src/components/Navigation.astro:gqvsdb">Services</div>
+      <a href="/security-services-pa/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjow">Security Services PA</a>
+      <a href="/security-guards-pa/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjox">Security Guards PA</a>
+      <a href="/armed-security-pa/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjoy">Armed Security PA</a>
+      <a href="/armed-security-guards-quakertown-pa/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjoz">Armed Security Guards Quakertown</a>
+      <a href="/vehicle-patrol/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjpl">Vehicle Patrol</a>
+      <a href="/security-checks/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjpm">Security Checks</a>
+      <a href="/school-security/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjpn">School Security</a>
+
+      <div class="py-2 px-3 text-[#DBA400] text-xs font-bold uppercase tracking-wider mt-2" data-ps="src/components/Navigation.astro:gqvsdc">Specialized</div>
+      <a href="/logistical-security/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjpo">Logistical Security</a>
+      <a href="/warehouse-distribution-security/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjpp">Warehouse Security</a>
+      <a href="/fire-watch/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjpq">Fire Watch Services</a>
+      <a href="/school-event-staff/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjpr">School Event Staff</a>
+      <a href="/event-traffic-control/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjps">Event Traffic Control</a>
+      <a href="/armed-money-escorts/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjpt">Armed Money Escorts</a>
+      <a href="/in-home-security/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjpu">In-Home Security</a>
+      <a href="/private-investigations/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjqg">Private Investigations</a>
+      <a href="/process-services/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjqh">Process Services</a>
+      <a href="/first-aid-training/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjqi">First Aid Training</a>
+      <a href="/act-67-certified-services/" class="py-1.5 px-6 text-sm font-bold text-[#DBA400] no-underline" data-ps="src/components/Navigation.astro:7vkjqj">ACT 67 TRAINING SERVICES</a>
+
+      <div class="py-2 px-3 text-[#DBA400] text-xs font-bold uppercase tracking-wider mt-2" data-ps="src/components/Navigation.astro:gqvsdd">About & Contact</div>
+      <a href="/security-services-pa/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjqk">Our Company</a>
+      <a href="/employment/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjql">Employment</a>
+      <a href="/employee-application/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjqm">Application</a>
+      <a href="/testimonials/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjqn">Testimonials</a>
+      <a href="/security-company-faq/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjqo">FAQ</a>
+      <a href="/contact/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjqp">Contact Us</a>
+      <a href="/blog/" class="py-1.5 px-6 text-sm text-gray-300 hover:text-white no-underline" data-ps="src/components/Navigation.astro:7vkjrb">News & Blog</a>
+
+      <div class="pt-4 px-3" data-ps="src/components/Navigation.astro:gqvsde">
+        <a
+          href="tel:610-562-0971"
+          class="block w-full text-center bg-[#DBA400] text-[#0B1522] font-bold py-3 rounded no-underline font-['Space_Grotesk']"
+        >
+          Call 610-562-0971
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIconOpen = document.getElementById('menu-icon-open');
+  const menuIconClose = document.getElementById('menu-icon-close');
+
+  function toggleMenu() {
+    const isExpanded = mobileMenuButton?.getAttribute('aria-expanded') === 'true';
+    if (isExpanded) {
+      mobileMenu?.classList.add('hidden');
+      menuIconOpen?.classList.remove('hidden');
+      menuIconClose?.classList.add('hidden');
+      mobileMenuButton?.setAttribute('aria-expanded', 'false');
+    } else {
+      mobileMenu?.classList.remove('hidden');
+      menuIconOpen?.classList.add('hidden');
+      menuIconClose?.classList.remove('hidden');
+      mobileMenuButton?.setAttribute('aria-expanded', 'true');
+    }
+  }
+
+  mobileMenuButton?.addEventListener('click', toggleMenu);
+</script>

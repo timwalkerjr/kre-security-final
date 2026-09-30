@@ -1,0 +1,49 @@
+---
+import { SITE } from '@/config/site';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/home/Hero.astro';
+import TrustBar from '@/components/home/TrustBar.astro';
+import Services from '@/components/home/Services.astro';
+import QualityAuthority from '@/components/home/QualityAuthority.astro';
+import Benefits from '@/components/home/Benefits.astro';
+import Coverage from '@/components/home/Coverage.astro';
+import Contact from '@/components/home/Contact.astro';
+---
+
+<BaseLayout
+  title={SITE.title}
+  description={SITE.description}
+  type="website"
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'SecurityService',
+    name: 'KRE Security LLC',
+    description: SITE.description,
+    url: 'https://kre-security.netlify.app/',
+    telephone: '610-562-0971',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '16600 Pottsville Pike',
+      addressLocality: 'Hamburg',
+      addressRegion: 'PA',
+      postalCode: '19526',
+      addressCountry: 'US'
+    },
+    areaServed: {
+      '@type': 'State',
+      name: 'Pennsylvania'
+    },
+    sameAs: [
+      'https://www.facebook.com/KRE-Security-LLC-105764734683407',
+      'https://www.facebook.com/KREsecinvestigations/'
+    ]
+  }}
+>
+  <Hero />
+  <TrustBar />
+  <Services />
+  <QualityAuthority />
+  <Benefits />
+  <Coverage />
+  <Contact />
+</BaseLayout>

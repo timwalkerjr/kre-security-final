@@ -1,0 +1,285 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const title = "Security & Investigation FAQs | KRE Security";
+const description = "Find answers about KRE Security’s licensing, insurance, investigation process, retainers, and client confidentiality. Contact our team with questions.";
+
+const faqs = [
+  {
+    num: "01",
+    question: "Is Your Agency Properly Licensed?",
+    answer: "Yes. KRE Security LLC. is licensed pursuant to the Pennsylvania Private Detective Act to conduct the business of private investigations throughout the state of Pennsylvania."
+  },
+  {
+    num: "02",
+    question: "Can Your Agency Conduct Investigations Outside of Pennsylvania?",
+    answer: "We are currently only licensed in Pennsylvania to conduct private investigations, but have a vast network of investigative resources across the country and abroad."
+  },
+  {
+    num: "03",
+    question: "Does Your Agency Carry Liability Insurance?",
+    answer: "Yes. KRE Security LLC. is bonded and insured to provide the services offered to our clients."
+  },
+  {
+    num: "04",
+    question: "Will Your Agency Record Conversations for Investigative Purposes?",
+    answer: "No. Pursuant to the Pennsylvania Wiretap Law, it is illegal to conduct any investigations involving the interception or recording of audio between parties without their knowledge unless a court order has been issued, which is typically reserved for law enforcement authorities in the furtherance of a criminal investigation."
+  },
+  {
+    num: "05",
+    question: "Can You Guarantee the Outcome of an Investigation?",
+    answer: "It would be inappropriate for an investigator to guarantee the outcome of any case. Private investigators are hired to gather information using their training, experience and network of resources in an attempt to verify information or suspicions that a client may have concerning certain circumstances."
+  },
+  {
+    num: "06",
+    question: "Why Does Your Agency Require a Retainer?",
+    answer: "Investigative agencies normally require a retainer to protect the client and agency. The retainer is the contract between the client and agency that outlines the terms and conditions, including fees, of the services requested. The up front retainer fee is dependent upon the services to be performed and is used to budget the investigation. Any unused portions of the retainer fee are returned to the client, unless the fee is subjected to forfeiture under the terms and conditions."
+  },
+  {
+    num: "07",
+    question: "Does Your Agency Operate Under a Code of Conduct?",
+    answer: "Yes. KRE Security LLC. conducts every investigation ethically, morally, legally and with the highest degree of integrity."
+  },
+  {
+    num: "08",
+    question: "How Do You Distribute Personal Information on Individuals Subjected to an Investigative Request?",
+    answer: "There are laws such as the Gramm-Leach-Bliley Act of 1999 (GLBA), Fair Credit Reporting Act (FCRA) and Driver's Privacy Protection Act (DPPA) that govern the use of personal information. KRE Security/Investigations Inc. will not knowingly or intentionally violate these or any other laws pertaining to the release of personal information, and will not be held responsible if that information is misused by a third party requestor."
+  },
+  {
+    num: "09",
+    question: "Is All Communication with Clients Confidential?",
+    answer: "Yes. Unless there is a legal obligation to release or identify a client, all information between a client and our agency is held in strict confidence."
+  },
+  {
+    num: "10",
+    question: "Do I Need to Speak with an Attorney Prior to Hiring a Private Investigator?",
+    answer: "No. If you require the services of a private investigator, the decision to hire one is totally up to you; however, there are many circumstances that legal advice may be helpful and you should strongly consider speaking with an attorney if you are not familiar with the laws applicable to your situation."
+  }
+];
+---
+
+<BaseLayout
+  headerVariant="transparent"
+  title={title}
+  description={description}
+>
+  <main data-ps="src/pages/security-company-faq.astro:4f9ymr">
+    <!-- Hero Section -->
+    <section class="bg-dark-background py-20" data-ps="src/pages/security-company-faq.astro:f2hmu6">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12" data-ps="src/pages/security-company-faq.astro:g9vad4">
+        <div class="flex items-center gap-3 mb-6" data-ps="src/pages/security-company-faq.astro:g9vad5">
+          <span class="status-dot" data-ps="src/pages/security-company-faq.astro:nddtke">[ PA State License No. 84 ]</span>
+        </div>
+        <h1 class="font-heading font-bold uppercase tracking-tight text-dark-foreground mb-4 max-w-3xl text-h1" data-ps="src/pages/security-company-faq.astro:h3nggk">
+          Frequently Asked Questions
+        </h1>
+        <p class="text-dark-muted-foreground text-base leading-relaxed max-w-2xl mb-8" data-ps="src/pages/security-company-faq.astro:lyj8vd">
+          For more information about KRE Security LLC. and our services, review the answers below or fill out the contact form and we'll get back to you as soon as we can.
+        </p>
+        <a
+          href="#faq-contact"
+          class="inline-block bg-primary text-primary-foreground font-heading font-bold uppercase tracking-widest text-sm px-8 py-4 border-2 border-primary hover:bg-primary-hover transition-colors duration-150"
+         data-ps="src/pages/security-company-faq.astro:eulc5n">
+          Ask a Question
+        </a>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion & Contact Form Section -->
+    <section class="bg-surface py-20" data-ps="src/pages/security-company-faq.astro:f2hmu7">
+      <div class="max-w-4xl mx-auto px-6 lg:px-12" data-ps="src/pages/security-company-faq.astro:g9vad6">
+        <!-- FAQ Accordion List -->
+        <div class="space-y-4 mb-20" data-ps="src/pages/security-company-faq.astro:g9vad7">
+          {faqs.map((faq, __psIdx) => (
+            <div class="tactical-frame bg-background" data-ps={`src/pages/security-company-faq.astro:g9vad8-${__psIdx}`}>
+              <details class="group">
+                <summary class="flex items-center justify-between gap-4 cursor-pointer p-6 list-none select-none">
+                  <div class="flex items-start gap-4" data-ps={`src/pages/security-company-faq.astro:ub8iks-${__psIdx}`}>
+                    <span class="text-primary font-heading font-bold text-xs mt-0.5 flex-shrink-0" data-ps={`src/pages/security-company-faq.astro:nddtkf-${__psIdx}`}>
+                      {faq.num}
+                    </span>
+                    <h3 class="font-heading font-bold uppercase text-foreground text-base leading-tight" data-ps={`src/pages/security-company-faq.astro:okmr2t-${__psIdx}`}>
+                      {faq.question}
+                    </h3>
+                  </div>
+                  <span class="text-primary font-bold text-xl flex-shrink-0 group-open:rotate-45 transition-transform duration-150 select-none" data-ps={`src/pages/security-company-faq.astro:nddtkg-${__psIdx}`}>
+                    +
+                  </span>
+                </summary>
+                <div class="px-6 pb-6 pt-0" data-ps={`src/pages/security-company-faq.astro:ub8ikt-${__psIdx}`}>
+                  <div class="ml-10 border-l-2 border-primary pl-4" data-ps={`src/pages/security-company-faq.astro:ub8iku-${__psIdx}`}>
+                    <p class="text-muted-foreground text-sm leading-relaxed" data-ps={`src/pages/security-company-faq.astro:lyj8vc-${__psIdx}`}>
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              </details>
+            </div>
+          ))}
+        </div>
+
+        <!-- Have a Question We Did Not Answer? -->
+        <div id="faq-contact" class="bg-dark-background p-8 lg:p-12 tactical-frame" data-ps="src/pages/security-company-faq.astro:ub8ikv">
+          <div class="text-center mb-8" data-ps="src/pages/security-company-faq.astro:ub8ikw">
+            <p class="text-primary font-heading font-bold uppercase tracking-widest text-xs mb-3" data-ps="src/pages/security-company-faq.astro:lyj8vb">
+              [ Still Have Questions? ]
+            </p>
+            <h2 class="font-heading font-bold uppercase tracking-tight text-dark-foreground text-h2" data-ps="src/pages/security-company-faq.astro:vs2do5">
+              Have a Question We Did Not Answer?
+            </h2>
+            <p class="text-dark-muted-foreground text-sm mt-3 max-w-lg mx-auto" data-ps="src/pages/security-company-faq.astro:lyj8va">
+              Fill out the form and our team will get back to you as soon as we can.
+            </p>
+          </div>
+
+          <div id="faq-form-status" class="hidden max-w-xl mx-auto mb-6 px-4 py-3 rounded text-sm text-center" data-ps="src/pages/security-company-faq.astro:ub8ikx"></div>
+
+          <form id="faq-form" class="max-w-xl mx-auto space-y-4">
+            <input type="hidden" name="_formId" value="faq-contact" />
+            <div data-ps="src/pages/security-company-faq.astro:ub8iky">
+              <input
+                type="text"
+                name="name"
+                required
+                placeholder="Your Name"
+                class="w-full bg-transparent border border-dark-border text-dark-foreground placeholder-dark-muted-foreground font-sans text-sm px-4 py-3 focus:outline-none focus:border-primary transition-colors"
+              />
+            </div>
+            <div data-ps="src/pages/security-company-faq.astro:ub8ikz">
+              <input
+                type="email"
+                name="email"
+                required
+                placeholder="Email Address"
+                class="w-full bg-transparent border border-dark-border text-dark-foreground placeholder-dark-muted-foreground font-sans text-sm px-4 py-3 focus:outline-none focus:border-primary transition-colors"
+              />
+            </div>
+            <div data-ps="src/pages/security-company-faq.astro:ub8il0">
+              <textarea
+                name="message"
+                required
+                rows="4"
+                placeholder="Your Question"
+                class="w-full bg-transparent border border-dark-border text-dark-foreground placeholder-dark-muted-foreground font-sans text-sm px-4 py-3 focus:outline-none focus:border-primary transition-colors resize-none"
+              ></textarea>
+            </div>
+            <altcha-widget
+              challenge="/psapi-internal-v1/altcha/challenge"
+              display="invisible"
+              auto="onfocus"
+            ></altcha-widget>
+            <div class="text-center" data-ps="src/pages/security-company-faq.astro:ub8il1">
+              <button
+                type="submit"
+                id="faq-form-submit"
+                class="inline-block bg-primary text-primary-foreground font-heading font-bold uppercase tracking-widest text-sm px-10 py-4 border-2 border-primary hover:bg-primary-hover transition-colors duration-150 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Send Question
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .tactical-frame {
+    border: 1px solid var(--color-border);
+    position: relative;
+  }
+  .tactical-frame::before {
+    content: "";
+    border-top: 3px solid var(--color-primary);
+    border-left: 3px solid var(--color-primary);
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    pointer-events: none;
+  }
+  .tactical-frame::after {
+    content: "";
+    border-bottom: 3px solid var(--color-primary);
+    border-right: 3px solid var(--color-primary);
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    pointer-events: none;
+  }
+  #faq-contact.tactical-frame {
+    border-color: var(--color-dark-border);
+  }
+  .status-dot {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-primary);
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: inline-flex;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+</style>
+
+<script>
+  import 'altcha';
+
+  const form = document.getElementById('faq-form') as HTMLFormElement;
+  const status = document.getElementById('faq-form-status') as HTMLDivElement;
+  const submitBtn = document.getElementById('faq-form-submit') as HTMLButtonElement;
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!submitBtn) return;
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch('/psapi-internal-v1/forms/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          _formId: formData.get('_formId'),
+          name: formData.get('name'),
+          email: formData.get('email'),
+          message: formData.get('message'),
+          altcha: formData.get('altcha'),
+        }),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        if (status) {
+          status.className = 'max-w-xl mx-auto mb-6 px-4 py-3 rounded text-sm text-center bg-green-950/60 border border-green-500 text-green-200';
+          status.textContent = 'Thank you! Your question has been sent. We will get back to you shortly.';
+          status.classList.remove('hidden');
+        }
+        form.reset();
+      } else {
+        throw new Error(result.error || 'Failed to send');
+      }
+    } catch (err) {
+      if (status) {
+        status.className = 'max-w-xl mx-auto mb-6 px-4 py-3 rounded text-sm text-center bg-red-950/60 border border-red-500 text-red-200';
+        status.textContent = err instanceof Error ? err.message : 'Failed to send. Please try again.';
+        status.classList.remove('hidden');
+      }
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send Question';
+    }
+  });
+</script>

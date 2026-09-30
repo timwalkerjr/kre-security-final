@@ -1,0 +1,78 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const title = "Security Job Application | KRE Security";
+const description = "Apply for a security position with KRE Security in Pennsylvania. Submit your experience and availability for full-time, part-time, or seasonal opportunities.";
+---
+
+<BaseLayout headerVariant="solid" title={title} description={description}>
+  <main class="bg-background py-16 md:py-20" data-ps="src/pages/employee-application.astro:v4rspw">
+    <div class="max-w-4xl mx-auto px-6" data-ps="src/pages/employee-application.astro:wsjndh">
+      {/* Header */}
+      <div class="text-center mb-12" data-ps="src/pages/employee-application.astro:wsjndi">
+        <div class="inline-flex items-center justify-center gap-2 mb-4" data-ps="src/pages/employee-application.astro:wsjndj">
+          <span class="w-2 h-2 rounded-full bg-primary" data-ps="src/pages/employee-application.astro:dwt88s"></span>
+          <span class="font-display text-xs md:text-sm font-bold uppercase tracking-widest text-primary" data-ps="src/pages/employee-application.astro:dwt88r">[ NOW HIRING ]</span>
+        </div>
+        <h1 class="font-display font-bold uppercase tracking-tight text-foreground text-h1 mb-4" data-ps="src/pages/employee-application.astro:39ufx0">
+          Employee Hiring Application
+        </h1>
+      </div>
+
+      {/* Tactical Frame / Disclaimer */}
+      <div class="relative bg-surface border border-border p-6 md:p-8 mb-10" data-ps="src/pages/employee-application.astro:wsjndk">
+        <div class="absolute -top-[1px] -left-[1px] w-4 h-4 border-t-2 border-l-2 border-primary" data-ps="src/pages/employee-application.astro:wsjndl"></div>
+        <div class="absolute -bottom-[1px] -right-[1px] w-4 h-4 border-b-2 border-r-2 border-primary" data-ps="src/pages/employee-application.astro:wsjndm"></div>
+
+        <p class="font-display text-xs uppercase tracking-widest text-primary mb-3 font-bold" data-ps="src/pages/employee-application.astro:ietsvg">
+          [ KRE Disclaimer ]
+        </p>
+        <p class="font-sans text-foreground text-sm md:text-base leading-relaxed" data-ps="src/pages/employee-application.astro:ietsvh">
+          KRE Security, working under the laws of the Commonwealth of Pennsylvania will not employ any individual convicted of a Felony. A conviction is an immediate disqualification of an employment opportunity in the capacity of a Security Guard in the Commonwealth.
+        </p>
+      </div>
+
+      {/* CTA Button */}
+      <div class="text-center" data-ps="src/pages/employee-application.astro:wsjndn">
+        <p class="font-sans text-muted-foreground text-sm md:text-base mb-6" data-ps="src/pages/employee-application.astro:ietsvi">
+          Click below to begin your online employment application through our secure Adobe Sign portal.
+        </p>
+        <a
+          href="https://na4.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDVu8TUeWmiMKm9oE1_hjixjqhIuSb3EtQyMD2mPlOX7QUF0PNlNIISYZ0f9woOk40*"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block bg-primary text-primary-foreground font-display font-bold uppercase tracking-widest text-sm px-10 py-5 border-2 border-primary hover:bg-primary-hover transition-colors shadow-sm"
+         data-ps="src/pages/employee-application.astro:pirpkk">
+          Click Here to Start Application
+        </a>
+        <p class="font-sans text-muted-foreground text-xs mt-4" data-ps="src/pages/employee-application.astro:ietsvj">
+          Opens in a new window via Adobe Sign
+        </p>
+      </div>
+
+      {/* Questions / Contact Box */}
+      <div class="mt-16 border border-border bg-surface p-6 md:p-8 text-center" data-ps="src/pages/employee-application.astro:wsjndo">
+        <p class="font-display text-xs uppercase tracking-widest text-muted-foreground mb-2 font-bold" data-ps="src/pages/employee-application.astro:ietsvk">
+          [ Questions? Contact Us ]
+        </p>
+        <p class="font-sans text-foreground text-sm md:text-base mb-4" data-ps="src/pages/employee-application.astro:ietsvl">
+          For questions about available positions, contact our hiring team.
+        </p>
+        <div class="flex flex-wrap justify-center items-center gap-6" data-ps="src/pages/employee-application.astro:wsjndp">
+          <a
+            href="tel:6105620971"
+            class="font-display font-bold text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wide"
+           data-ps="src/pages/employee-application.astro:pirpkl">
+            610-562-0971 Ext: 3
+          </a>
+          <a
+            href="mailto:employment@kresecurity.com"
+            class="font-display font-bold text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wide"
+           data-ps="src/pages/employee-application.astro:pirpl7">
+            employment@kresecurity.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+</BaseLayout>

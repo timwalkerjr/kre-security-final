@@ -1,0 +1,4629 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": {
+    "type": "color",
+    "value": "rgb(247, 247, 247)"
+  },
+  "fontSmoothing": null,
+  "isElementor": false,
+  "sectionThemes": [
+    {
+      "background": "rgb(247, 247, 247)",
+      "textColor": "rgb(250, 250, 250)",
+      "headings": [],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "rgb(250, 250, 250)",
+        "lineHeight": "24px",
+        "textAlign": "start"
+      },
+      "buttons": [],
+      "images": [
+        {
+          "displayWidth": 47,
+          "displayHeight": 56,
+          "objectFit": "contain"
+        },
+        {
+          "displayWidth": 76,
+          "displayHeight": 98,
+          "objectFit": "contain"
+        },
+        {
+          "displayWidth": 606,
+          "displayHeight": 266,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 711,
+          "displayHeight": 889,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 334,
+          "displayHeight": 176,
+          "objectFit": "contain"
+        },
+        {
+          "displayWidth": 53,
+          "displayHeight": 64,
+          "objectFit": "contain"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1360px",
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "gap": "24px",
+        "childCount": 6
+      },
+      "interactionType": "carousel",
+      "contentAlignment": {
+        "container": "body > ",
+        "containerSize": {
+          "width": 1905,
+          "height": 9588
+        },
+        "offsets": {
+          "left": 305,
+          "top": 202,
+          "right": 873,
+          "bottom": 9256
+        },
+        "center": {
+          "x": 0.351,
+          "y": 0.028
+        },
+        "layout": {
+          "display": "block",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px 0px 26px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(7, 14, 23)",
+      "gradient": "radial-gradient(at 85% 15%, rgb(21, 37, 53) 0%, rgba(0, 0, 0, 0) 55%), none",
+      "textColor": "rgb(250, 250, 250)",
+      "headings": [
+        {
+          "tag": "h1",
+          "fontSize": "62.4px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(250, 250, 250)",
+          "text": "Precision Protectionfor the Commonwealth.",
+          "textTransform": "none",
+          "letterSpacing": "-3.432px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "28px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(250, 250, 250)",
+          "text": "How can we help?",
+          "textTransform": "none",
+          "letterSpacing": "-0.84px",
+          "textAlign": "left"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "rgb(219, 164, 0)",
+        "lineHeight": "24px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(219, 164, 0)",
+          "color": "rgb(10, 18, 31)",
+          "borderRadius": "10px",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "15px 20px 15px 20px",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "fontFamily": "Manrope",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "610-562-0971 ↗"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "10px",
+          "border": "1px solid rgba(255, 255, 255, 0.19)",
+          "padding": "15px 20px 15px 20px",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "fontFamily": "Manrope",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "Explore our services"
+        },
+        {
+          "backgroundColor": "rgba(255, 255, 255, 0.02)",
+          "color": "rgb(250, 250, 250)",
+          "borderRadius": "12px",
+          "border": "1px solid rgba(255, 255, 255, 0.086)",
+          "padding": "16px 16px 16px 16px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "fontFamily": "Manrope",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "◷24-hour emergency dispatch610-562-0971↗"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 76,
+          "displayHeight": 98,
+          "objectFit": "contain"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1360px",
+        "paddingBlock": "156px 64px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "gap": "12px",
+        "childCount": 2
+      },
+      "interactionType": "carousel",
+      "pseudoElements": [
+        {
+          "host": "kre-eyebrow",
+          "type": "::before",
+          "width": "22px",
+          "height": "2px",
+          "backgroundColor": "rgb(219, 164, 0)"
+        },
+        {
+          "host": "span",
+          "type": "::before",
+          "width": "5px",
+          "height": "5px",
+          "backgroundColor": "rgb(219, 164, 0)"
+        },
+        {
+          "host": "span",
+          "type": "::before",
+          "width": "5px",
+          "height": "5px",
+          "backgroundColor": "rgb(219, 164, 0)"
+        }
+      ],
+      "contentAlignment": {
+        "container": "#hero",
+        "containerSize": {
+          "width": 1905,
+          "height": 823
+        },
+        "offsets": {
+          "left": 305,
+          "top": 202,
+          "right": 873,
+          "bottom": 491
+        },
+        "center": {
+          "x": 0.351,
+          "y": 0.324
+        },
+        "layout": {
+          "display": "block",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "156px 0px 64px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px 0px 26px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(13, 23, 36)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {
+        "containerMaxWidth": "1360px",
+        "paddingBlock": "23px 23px"
+      }
+    },
+    {
+      "background": "rgb(237, 240, 243)",
+      "textColor": "rgb(10, 18, 31)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(10, 18, 31)",
+          "text": "Quality, Licensed Security at Competitive Rates",
+          "textTransform": "none",
+          "letterSpacing": "-0.8px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(10, 18, 31)",
+          "text": "License No. 84",
+          "textTransform": "none",
+          "letterSpacing": "-0.52px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(10, 18, 31)",
+          "text": "Management Excellence",
+          "textTransform": "none",
+          "letterSpacing": "-0.52px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(10, 18, 31)",
+          "text": "Veteran Supported",
+          "textTransform": "none",
+          "letterSpacing": "-0.52px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(10, 18, 31)",
+          "text": "24-Hour Emergency Dispatch",
+          "textTransform": "none",
+          "letterSpacing": "-0.8px",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "rgb(104, 111, 125)",
+        "lineHeight": "26px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "color": "rgb(10, 18, 31)",
+          "padding": "0px 0px 0px 0px",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "610-562-0971"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 606,
+          "displayHeight": 266,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1360px",
+        "paddingBlock": "80px 80px",
+        "display": "grid",
+        "gridTemplateColumns": "400px 400px 400px",
+        "gap": "48px",
+        "childCount": 3
+      },
+      "pseudoElements": [
+        {
+          "host": "tactical-frame p-2 bg-secondary/50 border-dark-border",
+          "type": "::before",
+          "width": "12px",
+          "height": "12px",
+          "position": "absolute",
+          "top": "-2px",
+          "left": "-2px",
+          "border": "3px solid rgb(219, 164, 0)"
+        },
+        {
+          "host": "tactical-frame p-2 bg-secondary/50 border-dark-border",
+          "type": "::after",
+          "width": "12px",
+          "height": "12px",
+          "position": "absolute",
+          "right": "-2px",
+          "bottom": "-2px",
+          "border": "0px solid rgb(10, 18, 31)"
+        }
+      ],
+      "contentAlignment": {
+        "container": "#trust",
+        "containerSize": {
+          "width": 1905,
+          "height": 1096
+        },
+        "offsets": {
+          "left": 305,
+          "top": 80,
+          "right": 833,
+          "bottom": 928
+        },
+        "center": {
+          "x": 0.361,
+          "y": 0.113
+        },
+        "layout": {
+          "display": "block",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "80px 0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px 0px 24px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(7, 14, 23)",
+      "textColor": "rgb(250, 250, 250)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(250, 250, 250)",
+          "text": "5 Benefits of Hiring a Security Company",
+          "textTransform": "none",
+          "letterSpacing": "-0.8px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(250, 250, 250)",
+          "text": "Sense of Security",
+          "textTransform": "none",
+          "letterSpacing": "-0.4px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(250, 250, 250)",
+          "text": "Prevention",
+          "textTransform": "none",
+          "letterSpacing": "-0.4px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(250, 250, 250)",
+          "text": "Customer Service",
+          "textTransform": "none",
+          "letterSpacing": "-0.4px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(250, 250, 250)",
+          "text": "Handling Crime",
+          "textTransform": "none",
+          "letterSpacing": "-0.4px",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "rgb(213, 219, 227)",
+        "lineHeight": "25.6px",
+        "textAlign": "start"
+      },
+      "buttons": [],
+      "images": [
+        {
+          "displayWidth": 711,
+          "displayHeight": 889,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1360px",
+        "paddingBlock": "80px 80px",
+        "display": "grid",
+        "gridTemplateColumns": "49.3281px 49.3281px 49.3281px 49.3281px 49.3281px 49.3281px 49.3281px 49.3281px 49.3281px 49.3281px 49.3281px 49.3281px",
+        "gap": "64px",
+        "childCount": 2
+      },
+      "pseudoElements": [
+        {
+          "host": "status-dot mb-4",
+          "type": "::before",
+          "width": "8px",
+          "height": "8px",
+          "backgroundColor": "rgb(219, 164, 0)"
+        },
+        {
+          "host": "tactical-frame p-2 bg-secondary border-dark-border overflow-hidden",
+          "type": "::before",
+          "width": "12px",
+          "height": "12px",
+          "position": "absolute",
+          "top": "-2px",
+          "left": "-2px",
+          "border": "3px solid rgb(219, 164, 0)"
+        },
+        {
+          "host": "tactical-frame p-2 bg-secondary border-dark-border overflow-hidden",
+          "type": "::after",
+          "width": "12px",
+          "height": "12px",
+          "position": "absolute",
+          "right": "-2px",
+          "bottom": "-2px",
+          "border": "0px solid rgb(10, 18, 31)"
+        }
+      ],
+      "contentAlignment": {
+        "container": "#advantages",
+        "containerSize": {
+          "width": 1905,
+          "height": 1320
+        },
+        "offsets": {
+          "left": 305,
+          "top": 122,
+          "right": 1098,
+          "bottom": 1110
+        },
+        "center": {
+          "x": 0.292,
+          "y": 0.126
+        },
+        "layout": {
+          "display": "block",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "80px 0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px 0px 32px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(7, 14, 23)",
+      "textColor": "rgb(250, 250, 250)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(250, 250, 250)",
+          "text": "Contact Us Today for a Security Service Quote",
+          "textTransform": "none",
+          "letterSpacing": "-0.8px",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "rgb(213, 219, 227)",
+        "lineHeight": "24px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(219, 164, 0)",
+          "color": "rgb(10, 18, 31)",
+          "borderRadius": "8px",
+          "padding": "20px 48px 20px 48px",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "fontStyle": "normal",
+          "textTransform": "uppercase",
+          "text": "Submit Request"
+        }
+      ],
+      "links": [
+        {
+          "text": "610-562-0971",
+          "color": "rgb(250, 250, 250)",
+          "fontWeight": "700"
+        },
+        {
+          "text": "jemes@kresecurity.com",
+          "color": "rgb(250, 250, 250)",
+          "fontWeight": "400"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1360px",
+        "paddingBlock": "80px 80px",
+        "display": "grid",
+        "gridTemplateColumns": "38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px 38.5px",
+        "gap": "64px",
+        "childCount": 2
+      },
+      "pseudoElements": [
+        {
+          "host": "tactical-frame bg-secondary border-dark-border p-8 lg:p-16",
+          "type": "::before",
+          "width": "12px",
+          "height": "12px",
+          "position": "absolute",
+          "top": "-2px",
+          "left": "-2px",
+          "border": "3px solid rgb(219, 164, 0)"
+        },
+        {
+          "host": "tactical-frame bg-secondary border-dark-border p-8 lg:p-16",
+          "type": "::after",
+          "width": "12px",
+          "height": "12px",
+          "position": "absolute",
+          "right": "-2px",
+          "bottom": "-2px",
+          "border": "0px solid rgb(10, 18, 31)"
+        },
+        {
+          "host": "status-dot mb-4",
+          "type": "::before",
+          "width": "8px",
+          "height": "8px",
+          "backgroundColor": "rgb(219, 164, 0)"
+        }
+      ],
+      "contentAlignment": {
+        "container": "#contact",
+        "containerSize": {
+          "width": 1905,
+          "height": 1050
+        },
+        "offsets": {
+          "left": 370,
+          "top": 187,
+          "right": 1087,
+          "bottom": 775
+        },
+        "center": {
+          "x": 0.312,
+          "y": 0.22
+        },
+        "layout": {
+          "display": "block",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "80px 0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px 0px 32px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(7, 14, 23)",
+      "textColor": "rgb(250, 250, 250)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(250, 250, 250)",
+          "text": "KRE SECURITY",
+          "textTransform": "none",
+          "letterSpacing": "-0.4px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(219, 164, 0)",
+          "text": "Main Office",
+          "textTransform": "none",
+          "letterSpacing": "-0.32px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(219, 164, 0)",
+          "text": "Quick Links",
+          "textTransform": "none",
+          "letterSpacing": "-0.32px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "fontFamily": "Space Grotesk",
+          "color": "rgb(219, 164, 0)",
+          "text": "Proud Member & Supporter",
+          "textTransform": "none",
+          "letterSpacing": "-0.32px",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "rgb(213, 219, 227)",
+        "lineHeight": "25.6px",
+        "textAlign": "start"
+      },
+      "buttons": [],
+      "links": [
+        {
+          "text": "610-562-0971",
+          "color": "rgb(250, 250, 250)",
+          "fontWeight": "700"
+        },
+        {
+          "text": "Home",
+          "color": "rgb(213, 219, 227)",
+          "fontWeight": "400"
+        },
+        {
+          "text": "Web Design and SEO by twalkerco",
+          "color": "rgb(250, 250, 250)",
+          "fontWeight": "400"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 53,
+          "displayHeight": 64,
+          "objectFit": "contain"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1360px",
+        "paddingBlock": "80px 48px",
+        "display": "grid",
+        "gridTemplateColumns": "64px 64px 64px 64px 64px 64px 64px 64px 64px 64px 64px 64px",
+        "gap": "48px",
+        "childCount": 2
+      },
+      "contentAlignment": {
+        "container": "body > footer:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 670
+        },
+        "offsets": {
+          "left": 373,
+          "top": 89,
+          "right": 1404,
+          "bottom": 561
+        },
+        "center": {
+          "x": 0.229,
+          "y": 0.148
+        },
+        "layout": {
+          "display": "block",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "80px 0px 48px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    }
+  ],
+  "globalTypography": {
+    "headingFont": "Space Grotesk",
+    "bodyFont": "Manrope",
+    "scale": {
+      "h1": {
+        "fontSize": "62.4px",
+        "fontWeight": "700",
+        "lineHeight": "64.896px",
+        "fontFamily": "Space Grotesk",
+        "fontStyle": "normal",
+        "textTransform": "none"
+      },
+      "h2": {
+        "fontSize": "40px",
+        "fontWeight": "700",
+        "lineHeight": "44px",
+        "fontFamily": "Space Grotesk",
+        "fontStyle": "normal",
+        "textTransform": "none"
+      },
+      "h3": {
+        "fontSize": "20px",
+        "fontWeight": "700",
+        "lineHeight": "28px",
+        "fontFamily": "Space Grotesk",
+        "fontStyle": "normal",
+        "textTransform": "none"
+      },
+      "body": {
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "lineHeight": "24px",
+        "fontFamily": "Space Grotesk"
+      }
+    }
+  },
+  "navigation": {
+    "isFullWidth": true,
+    "width": "1905px",
+    "position": "fixed",
+    "logo": {
+      "width": "47px",
+      "height": "56px",
+      "position": "inside-nav",
+      "hasBadge": false,
+      "src": "https://kre-security.netlify.app/images/kre-security-gold-logo.webp"
+    },
+    "hasLogo": true,
+    "links": [
+      {
+        "text": "KRE SECURITY LLC.",
+        "fontSize": "16px",
+        "fontFamily": "Manrope",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(10, 18, 31)",
+        "hasIcon": true
+      },
+      {
+        "text": "Home",
+        "fontSize": "16px",
+        "fontFamily": "Space Grotesk",
+        "fontWeight": "700",
+        "fontStyle": "normal",
+        "letterSpacing": "0.56px",
+        "textTransform": "uppercase",
+        "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)"
+      },
+      {
+        "text": "Services",
+        "fontSize": "16px",
+        "fontFamily": "Space Grotesk",
+        "fontWeight": "700",
+        "fontStyle": "normal",
+        "letterSpacing": "0.56px",
+        "textTransform": "uppercase",
+        "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+        "hasIcon": true,
+        "hasDropdown": true
+      },
+      {
+        "text": "Specialized",
+        "fontSize": "16px",
+        "fontFamily": "Space Grotesk",
+        "fontWeight": "700",
+        "fontStyle": "normal",
+        "letterSpacing": "0.56px",
+        "textTransform": "uppercase",
+        "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+        "hasIcon": true,
+        "hasDropdown": true
+      },
+      {
+        "text": "About",
+        "fontSize": "16px",
+        "fontFamily": "Space Grotesk",
+        "fontWeight": "700",
+        "fontStyle": "normal",
+        "letterSpacing": "0.56px",
+        "textTransform": "uppercase",
+        "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+        "hasIcon": true,
+        "hasDropdown": true
+      },
+      {
+        "text": "News",
+        "fontSize": "16px",
+        "fontFamily": "Space Grotesk",
+        "fontWeight": "700",
+        "fontStyle": "normal",
+        "letterSpacing": "0.56px",
+        "textTransform": "uppercase",
+        "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+        "hasIcon": true,
+        "hasDropdown": true
+      },
+      {
+        "text": "610-562-0971",
+        "fontSize": "16px",
+        "fontFamily": "Space Grotesk",
+        "fontWeight": "700",
+        "fontStyle": "normal",
+        "letterSpacing": "0.56px",
+        "textTransform": "uppercase",
+        "color": "rgb(10, 18, 31)",
+        "isButton": true,
+        "buttonStyle": {
+          "backgroundColor": "rgb(219, 164, 0)",
+          "borderRadius": "8px",
+          "border": "1px solid rgb(219, 164, 0)"
+        }
+      }
+    ],
+    "linkLayout": {
+      "paddingX": "0px 0px",
+      "pitchPx": 217,
+      "distribution": "right"
+    }
+  },
+  "sliders": [],
+  "buttons": [
+    {
+      "backgroundColor": "rgb(219, 164, 0)",
+      "color": "rgb(10, 18, 31)",
+      "borderRadius": "10px",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "padding": "15px 20px 15px 20px",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "Manrope",
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "text": "610-562-0971 ↗"
+    },
+    {
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "10px",
+      "border": "1px solid rgba(255, 255, 255, 0.19)",
+      "padding": "15px 20px 15px 20px",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "Manrope",
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "text": "Explore our services"
+    },
+    {
+      "backgroundColor": "rgba(255, 255, 255, 0.02)",
+      "color": "rgb(250, 250, 250)",
+      "borderRadius": "12px",
+      "border": "1px solid rgba(255, 255, 255, 0.086)",
+      "padding": "16px 16px 16px 16px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Manrope",
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "text": "◷24-hour emergency dispatch610-562-0971↗"
+    },
+    {
+      "color": "rgb(10, 18, 31)",
+      "padding": "0px 0px 0px 0px",
+      "fontSize": "48px",
+      "fontWeight": "700",
+      "fontFamily": "Space Grotesk",
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "text": "610-562-0971"
+    }
+  ],
+  "videos": [],
+  "footer": {
+    "background": "rgb(7, 14, 23)",
+    "textColor": "rgb(250, 250, 250)",
+    "columns": 12,
+    "textAlign": "start",
+    "linkGroups": [
+      {
+        "heading": "Quick Links",
+        "links": [
+          {
+            "text": "Home",
+            "href": "/"
+          },
+          {
+            "text": "About",
+            "href": "/security-services-pa/"
+          },
+          {
+            "text": "Services",
+            "href": "/#services"
+          },
+          {
+            "text": "Employment",
+            "href": "/employment/"
+          },
+          {
+            "text": "Contact",
+            "href": "/contact/"
+          },
+          {
+            "text": "Blog",
+            "href": "/blog/"
+          },
+          {
+            "text": "Sitemap",
+            "href": "/sitemap/"
+          }
+        ]
+      },
+      {
+        "heading": "Proud Member & Supporter",
+        "links": [
+          {
+            "text": "ISNetworld",
+            "href": "https://www.isnetworld.com/en"
+          },
+          {
+            "text": "NASRO",
+            "href": "https://nasro.org/about-nasro/"
+          },
+          {
+            "text": "Greater Reading Chamber Alliance",
+            "href": "https://greaterreading.org/"
+          },
+          {
+            "text": "Northeast Berks Chamber",
+            "href": "https://northeastberkschamber.com/"
+          },
+          {
+            "text": "PA State Association of County Fairs",
+            "href": "https://www.pafairs.org/"
+          },
+          {
+            "text": "Harrisburg Regional Chamber & CREDC",
+            "href": "https://www.harrisburgregionalchamber.org/"
+          },
+          {
+            "text": "PALI",
+            "href": "https://pali.org/"
+          },
+          {
+            "text": "Alvernia University",
+            "href": "https://www.alvernia.edu/"
+          },
+          {
+            "text": "National Eagle Scout Association",
+            "href": "https://nesa.org/"
+          }
+        ]
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "facebook",
+      "href": "https://www.facebook.com/KRE-Security-LLC-105764734683407",
+      "location": "footer"
+    },
+    {
+      "platform": "facebook",
+      "href": "https://www.facebook.com/KREsecinvestigations/",
+      "location": "footer"
+    }
+  ],
+  "hoverStyles": {
+    ".kre-button-gold": {
+      "backgroundColor": "rgb(239, 191, 50)"
+    },
+    ".kre-button-outline": {
+      "borderColor": "var(--color-primary)"
+    },
+    ".kre-support-link": {
+      "backgroundColor": "rgba(219, 171, 0, 0.063)",
+      "borderColor": "rgba(219, 171, 0, 0.5)"
+    },
+    ".kre-redesign #services .grid > a > div:first-child": {
+      "color": "var(--color-primary)"
+    },
+    ".kre-redesign #coverage [class~=\"hover:text-primary\"]": {
+      "color": "var(--color-foreground)"
+    },
+    ".review-controls[data-astro-cid-5xbvjo44] button[data-astro-cid-5xbvjo44]": {
+      "color": "var(--color-primary)"
+    },
+    ".service-card[data-astro-cid-qmjtkzr2], .service-card[data-astro-cid-qmjtkzr2]:focus-within": {
+      "transform": "translateY(-8px)",
+      "boxShadow": "rgba(10, 18, 31, 0.07) 0px 18px 28px"
+    },
+    "#navbar [data-ps=\"src/components/Navigation.astro:kd8n5w\"]": {
+      "backgroundColor": "rgb(239, 191, 50)"
+    },
+    "#navbar a:not([href^=\"tel:\"]), #navbar button": {
+      "color": "var(--color-primary)"
+    },
+    ".kre-support-link[data-astro-cid-7ohgyr4k]": {
+      "backgroundColor": "rgba(219, 171, 0, 0.063)",
+      "borderColor": "rgba(219, 171, 0, 0.5)"
+    },
+    ".hover-lift": {
+      "transform": "translateY(-4px)",
+      "boxShadow": "rgba(0, 0, 0, 0.15) 0px 10px 30px"
+    },
+    ".hover-scale": {
+      "transform": "scale(1.05)"
+    },
+    ".hover-glow": {
+      "boxShadow": "0 0 20px color-mix(in srgb, var(--color-primary) 40%, transparent)"
+    }
+  },
+  "cssVariables": {
+    "--color-background": "#f9fafb",
+    "--color-foreground": "#131720",
+    "--color-muted-foreground": "#5a6272",
+    "--color-border": "#d3d7de",
+    "--color-surface": "#f0f2f5",
+    "--color-primary": "#f5bd14",
+    "--color-primary-foreground": "#131720",
+    "--color-primary-hover": "#d19e05",
+    "--color-secondary": "#181d25",
+    "--color-secondary-foreground": "#f9fafb",
+    "--color-secondary-hover": "#101318",
+    "--color-dark-background": "#14181f",
+    "--color-dark-foreground": "#f9fafb",
+    "--color-dark-muted-foreground": "#d5dbe3",
+    "--color-dark-border": "#2b303b",
+    "--color-success": "#16a249",
+    "--color-error": "#dc2828",
+    "--color-warning": "#f59f0a",
+    "--font-sans": "\"Manrope\", ui-sans-serif, system-ui, sans-serif",
+    "--font-display": "\"Space Grotesk\", ui-sans-serif, system-ui, sans-serif"
+  },
+  "externalFonts": [
+    "font-face: Space Grotesk",
+    "font-face: Manrope",
+    "font-face: Manrope"
+  ],
+  "portSectionStyles": [
+    {
+      "index": 0,
+      "heading": "Site header / navigation (port into Navigation.astro)",
+      "elements": [
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "KRE SECURITY LLC.",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "img",
+          "cls": "h-12",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "text-xs",
+          "text": "Home",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "button",
+          "cls": "flex",
+          "text": "Services",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "svg",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "width": 12,
+          "height": 12,
+          "viewBox": "0 0 24 24",
+          "fontSize": "16px",
+          "fontWeight": "700"
+        },
+        {
+          "tag": "button",
+          "cls": "flex",
+          "text": "Specialized",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "button",
+          "cls": "flex",
+          "text": "About",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "button",
+          "cls": "flex",
+          "text": "News",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "inline-flex",
+          "text": "610-562-0971",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(219, 164, 0)",
+          "border": "1px solid rgb(219, 164, 0)",
+          "borderRadius": "8px",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(250, 250, 250)",
+          "viewBox": "0 0 24 24",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Home",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "1.6px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "p",
+          "cls": "text-[10px]",
+          "text": "Core Services",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "grid",
+          "text": "Security Services PA Security Guards PA Armed Security PA Armed Security Guards ",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid oklab(0.74991 0.0152421 0.153095 / 0.2)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Security Services PA",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Security Guards PA",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Armed Security PA",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Armed Security Guards Quakertown",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Vehicle Patrol",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Security Checks",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "School Security",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "p",
+          "cls": "text-[10px]",
+          "text": "Specialized Security",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "grid",
+          "text": "Eastern PA Educators Logistical Security Warehouse Security Fire Watch Services ",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid oklab(0.74991 0.0152421 0.153095 / 0.2)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Eastern PA Educators",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Logistical Security",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Warehouse Security",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Fire Watch Services",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "School Event Staff",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Event Traffic Control",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Armed Money Escorts",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "In-Home Security",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Private Investigations",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Process Services",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "First Aid Training",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "p",
+          "cls": "text-[10px]",
+          "text": "About KRE",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "grid",
+          "text": "Our Company Employment Application Testimonials FAQ Contact Us",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid oklab(0.74991 0.0152421 0.153095 / 0.2)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Our Company",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Employment",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Application",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Testimonials",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "FAQ",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Contact Us",
+          "color": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "a",
+          "cls": "inline-flex",
+          "text": "610-562-0971",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(219, 164, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.56px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Precision Protectionfor the Commonwealth.",
+      "background": "rgb(7, 14, 23)",
+      "elements": [
+        {
+          "tag": "p",
+          "cls": "kre-eyebrow",
+          "text": "Pennsylvania security professionals",
+          "color": "rgb(219, 164, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "1.28px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "h1",
+          "text": "Precision Protectionfor the Commonwealth.",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "62.4px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "64.896px",
+          "tracking": "-3.432px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "text": "for the Commonwealth.",
+          "color": "rgb(219, 164, 0)",
+          "fontSize": "62.4px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "64.896px",
+          "tracking": "-3.432px",
+          "fontFamily": "Space Grotesk"
+        },
+        {
+          "tag": "p",
+          "cls": "kre-intro",
+          "text": "KRE Security, LLC delivers comprehensive, licensed, and responsive security serv",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "32.4px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "kre-button",
+          "text": "610-562-0971 ↗",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(219, 164, 0)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "borderRadius": "10px",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "text": "↗",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "kre-button",
+          "text": "Explore our services",
+          "color": "rgb(255, 255, 255)",
+          "border": "1px solid rgba(255, 255, 255, 0.19)",
+          "borderRadius": "10px",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Licensed & insured · No. 84",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "span",
+          "text": "Veteran supported firm",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "hero-reviews",
+          "text": "★★★★★←→ “Great company who responds to our needs in a timely fashion and have gr",
+          "color": "rgb(250, 250, 250)",
+          "border": "1px solid rgba(255, 255, 255, 0.15)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "span",
+          "text": "★★★★★",
+          "color": "rgb(219, 164, 0)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "20px",
+          "tracking": "3px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "button",
+          "text": "←",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "button",
+          "text": "→",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "aside",
+          "cls": "kre-support",
+          "text": "KRE SECURITY, LLCHow can we help?24-hour emergency dispatch ◇Act 67 TrainingScho",
+          "color": "rgb(250, 250, 250)",
+          "backgroundColor": "rgb(16, 32, 50)",
+          "border": "1px solid rgba(219, 171, 0, 0.247)",
+          "borderRadius": "20px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "img",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "span",
+          "cls": "kre-panel-label",
+          "text": "KRE SECURITY, LLC",
+          "color": "rgb(219, 164, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "1.28px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h2",
+          "text": "How can we help?",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "28px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "35px",
+          "tracking": "-0.84px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "24-hour emergency dispatch",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "span",
+          "cls": "kre-status",
+          "color": "rgb(213, 219, 227)",
+          "backgroundColor": "rgb(219, 164, 0)",
+          "borderRadius": "50%",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "kre-support-link",
+          "text": "◇Act 67 TrainingSchool security training and certification↗",
+          "color": "rgb(250, 250, 250)",
+          "backgroundColor": "rgba(255, 255, 255, 0.02)",
+          "border": "1px solid rgba(255, 255, 255, 0.086)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "kre-icon",
+          "text": "◇",
+          "color": "rgb(219, 164, 0)",
+          "backgroundColor": "rgba(219, 171, 0, 0.094)",
+          "borderRadius": "9px",
+          "fontSize": "24px",
+          "ownText": true,
+          "leading": "36px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "span",
+          "cls": "kre-arrow",
+          "text": "↗",
+          "color": "rgb(219, 164, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "kre-support-link",
+          "text": "+First Aid TrainingExplore our first aid training programs↗",
+          "color": "rgb(250, 250, 250)",
+          "backgroundColor": "rgba(255, 255, 255, 0.02)",
+          "border": "1px solid rgba(255, 255, 255, 0.086)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "kre-icon",
+          "text": "+",
+          "color": "rgb(219, 164, 0)",
+          "backgroundColor": "rgba(219, 171, 0, 0.094)",
+          "borderRadius": "9px",
+          "fontSize": "24px",
+          "ownText": true,
+          "leading": "36px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "kre-support-link",
+          "text": "◷24-hour emergency dispatch610-562-0971↗",
+          "color": "rgb(250, 250, 250)",
+          "backgroundColor": "rgba(255, 255, 255, 0.02)",
+          "border": "1px solid rgba(255, 255, 255, 0.086)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "kre-icon",
+          "text": "◷",
+          "color": "rgb(219, 164, 0)",
+          "backgroundColor": "rgba(219, 171, 0, 0.094)",
+          "borderRadius": "9px",
+          "fontSize": "24px",
+          "ownText": true,
+          "leading": "36px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "kre-support-link",
+          "text": "+KRE Job OpeningsExplore careers with KRE Security↗",
+          "color": "rgb(250, 250, 250)",
+          "backgroundColor": "rgba(255, 255, 255, 0.02)",
+          "border": "1px solid rgba(255, 255, 255, 0.086)",
+          "borderRadius": "12px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "kre-support-note",
+          "text": "Your total security professional.",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "\"Your Total Security Professional\"",
+      "background": "rgb(247, 247, 247)",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "text-h2",
+          "text": "\"Your Total Security Professional\"",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "44px",
+          "tracking": "-0.8px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Comprehensive, professional, and responsive protection solutions tailored to you",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Event Staffing Specialized staffing for large and small events, with custom serv",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "service-icon",
+          "color": "rgb(128, 99, 0)",
+          "backgroundColor": "rgba(219, 171, 0, 0.2)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(128, 99, 0)",
+          "width": 24,
+          "height": 24,
+          "viewBox": "0 0 24 24",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "text": "Event Staffing",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Specialized staffing for large and small events, with custom services tailored t",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "text": "Learn More →",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.96px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "span",
+          "text": "→",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "33px",
+          "tracking": "0.96px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "School Security Professional security and protection for school districts across",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "School Security",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Professional security and protection for school districts across the region, wit",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Security Guards Armed and unarmed guards for public and private settings. Short-",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Security Guards",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Armed and unarmed guards for public and private settings. Short-term, long-term,",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "ACT 67 Certified Services An approved and authorized ACT 67 vendor, providing se",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "ACT 67 Certified Services",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "An approved and authorized ACT 67 vendor, providing security services tailored t",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Private Investigations Professional surveillance and investigative techniques to",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Private Investigations",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Professional surveillance and investigative techniques to gather accurate inform",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "In-Home Security Wireless alarm systems customized to your home or business, wit",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "In-Home Security",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Wireless alarm systems customized to your home or business, with user-friendly f",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Security Checks Home and business security checks while you are on vacation, tra",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Security Checks",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Home and business security checks while you are on vacation, traveling for work,",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "First Aid Training Customized CPR, First Aid, and AED training for businesses, f",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "First Aid Training",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Customized CPR, First Aid, and AED training for businesses, facilities, civic gr",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Vehicle Patrol Custom patrol services using marked and unmarked vehicles, covert",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Vehicle Patrol",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Custom patrol services using marked and unmarked vehicles, covert vehicles, and ",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Logistical Security Security and logistical services for the transportation indu",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Logistical Security",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Security and logistical services for the transportation industry across Eastern ",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Armed Security Specialized armed guard services with full-time personnel trained",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Armed Security",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Specialized armed guard services with full-time personnel trained in firearms us",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Warehouses & Distribution Centers Security programs built around the unique chal",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Warehouses & Distribution Centers",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Security programs built around the unique challenges and operational concerns of",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Event Traffic Control Traffic control and safety services for events of all size",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Event Traffic Control",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Traffic control and safety services for events of all sizes across Pennsylvania,",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Process Services Service of subpoenas, summons, complaints, and other court docu",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Process Services",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Service of subpoenas, summons, complaints, and other court documents in accordan",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Fire Watch Site-specific fire watch protection that addresses local code require",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Fire Watch",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Site-specific fire watch protection that addresses local code requirements when ",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "article",
+          "cls": "service-card",
+          "text": "Armed Money Escorts Armed escort services focused on vigilance, attention to det",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "1px solid rgb(236, 238, 241)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "text": "Armed Money Escorts",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.65px",
+          "tracking": "-0.38px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Armed escort services focused on vigilance, attention to detail, and the protect",
+          "color": "rgb(88, 97, 113)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "27.2px",
+          "fontFamily": "Manrope"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Quality, Licensed Security at Competitive Rates",
+      "background": "rgb(237, 240, 243)",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "text-h2",
+          "text": "Quality, Licensed Security at Competitive Rates",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "44px",
+          "tracking": "-0.8px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "KRE Security, LLC delivers comprehensive, professional, and responsive security ",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "26px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "p",
+          "text": "KRE Security, LLC will always be “Your Total Security Professional,” prepared fo",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "26px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-h3",
+          "text": "License No. 84",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "31.2px",
+          "tracking": "-0.52px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "KRE Security, LLC is a fully licensed and insured agency operating under the str",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-h3",
+          "text": "Management Excellence",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "31.2px",
+          "tracking": "-0.52px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "Under new ownership and management since 2016, delivering a modern, responsive a",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-h3",
+          "text": "Veteran Supported",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "31.2px",
+          "tracking": "-0.52px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "We are proud to be a Veteran Supported Firm, committed to the discipline, readin",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "mt-20",
+          "text": "24-Hour Emergency Dispatch Our specialized emergency dispatch center is operatio",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(207, 213, 219)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-h2",
+          "text": "24-Hour Emergency Dispatch",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "44px",
+          "tracking": "-0.8px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "Our specialized emergency dispatch center is operational 24/7/365, ensuring imme",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "inline-flex",
+          "text": "610-562-0971",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "text-3xl",
+          "text": "610-562-0971",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "48px",
+          "tracking": "-2.4px",
+          "fontFamily": "Space Grotesk"
+        },
+        {
+          "tag": "div",
+          "cls": "w-12",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(219, 164, 0)",
+          "borderRadius": "3.35544e+07px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(10, 18, 31)",
+          "width": 24,
+          "height": 24,
+          "viewBox": "0 0 24 24",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "tactical-frame",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "oklab(0.216006 -0.00538398 -0.0260635 / 0.5)",
+          "border": "1px solid rgb(207, 213, 219)",
+          "borderRadius": "16px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "w-full",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "5 Benefits of Hiring a Security Company",
+      "background": "rgb(7, 14, 23)",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "text-h2",
+          "text": "5 Benefits of Hiring a Security Company",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "44px",
+          "tracking": "-0.8px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "01 Sense of Security Even just the presence of a security guard can make a busin",
+          "color": "rgb(10, 18, 31)",
+          "border": "2px solid oklab(0.74991 0.0152421 0.153095 / 0.3)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "absolute",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(7, 14, 23)",
+          "border": "2px solid rgb(219, 164, 0)",
+          "borderRadius": "3.35544e+07px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-xl",
+          "text": "Sense of Security",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.4px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "Even just the presence of a security guard can make a business more effective an",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "02 Prevention A thief will think twice when there is a security guard present. I",
+          "color": "rgb(10, 18, 31)",
+          "border": "2px solid oklab(0.74991 0.0152421 0.153095 / 0.3)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-xl",
+          "text": "Prevention",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.4px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "A thief will think twice when there is a security guard present. It lets them kn",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "03 Customer Service Not only does a sense of security put your employees at ease",
+          "color": "rgb(10, 18, 31)",
+          "border": "2px solid oklab(0.74991 0.0152421 0.153095 / 0.3)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-xl",
+          "text": "Customer Service",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.4px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "Not only does a sense of security put your employees at ease but also your custo",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "04 Handling Crime Having a security guard will deter crime in your business but ",
+          "color": "rgb(10, 18, 31)",
+          "border": "2px solid oklab(0.74991 0.0152421 0.153095 / 0.3)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-xl",
+          "text": "Handling Crime",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.4px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "Having a security guard will deter crime in your business but it may still happe",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "05 Monitoring Take this responsibility off of your shoulders and leave your busi",
+          "color": "rgb(10, 18, 31)",
+          "border": "2px solid oklab(0.74991 0.0152421 0.153095 / 0.3)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-xl",
+          "text": "Monitoring",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.4px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "Take this responsibility off of your shoulders and leave your business security ",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "tactical-frame",
+          "text": "Field Operations Protection Excellence",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(18, 26, 38)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "borderRadius": "16px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "img",
+          "cls": "w-full",
+          "color": "rgb(10, 18, 31)",
+          "filter": "brightness(0.75) grayscale(1)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-h3",
+          "text": "Protection Excellence",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "31.2px",
+          "tracking": "-0.52px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "div",
+          "cls": "bg-dark-border/30",
+          "text": "24/7 Readiness",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "oklab(0.289656 -0.00828485 -0.0327706 / 0.3)",
+          "border": "2px solid rgb(219, 164, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "bg-dark-border/30",
+          "text": "100% Compliance",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "oklab(0.289656 -0.00828485 -0.0327706 / 0.3)",
+          "border": "2px solid rgb(219, 164, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Major Cities Covered By KRE Security LLC.",
+      "background": "rgb(247, 247, 247)",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "text-h2",
+          "text": "Major Cities Covered By KRE Security LLC.",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "44px",
+          "tracking": "-0.8px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Our PA security company provides qualified law enforcement and investigative ser",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "px-8",
+          "text": "View Service Area Map",
+          "color": "rgb(10, 18, 31)",
+          "border": "2px solid rgb(10, 18, 31)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Berks County Hamburg, Reading, Wyomissing, Boyertown, Kutztown, Temple, Leesport",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Berks County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "w-1.5",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(219, 164, 0)",
+          "borderRadius": "3.35544e+07px",
+          "fontSize": "18px",
+          "fontWeight": "700"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Hamburg, Reading, Wyomissing, Boyertown, Kutztown, Temple, Leesport, Boyertown, ",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Bucks County Levittown, Quakertown, Doylestown",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Bucks County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Levittown, Quakertown, Doylestown",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Carbon County Jim Thorpe, Lehighton, Nesquehoning",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Carbon County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Jim Thorpe, Lehighton, Nesquehoning",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Chester County West Chester, Phoenixville, Downingtown, Coatesville, Kennett Squ",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Chester County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "West Chester, Phoenixville, Downingtown, Coatesville, Kennett Square",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Cumberland County Carlisle",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Cumberland County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Carlisle",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Dauphin County Harrisburg, Hershey, Colonial Park, Middletown",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Dauphin County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Harrisburg, Hershey, Colonial Park, Middletown",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Erie County Erie",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Erie County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Erie",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Franklin County Fannettsburg",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Franklin County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Fannettsburg",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Juniata County Port Royal, Mifflintown",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Juniata County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Port Royal, Mifflintown",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Lancaster County Lancaster, Ephrata, Elizabethtown, Lititz, Columbia, New Hollan",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Lancaster County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Lancaster, Ephrata, Elizabethtown, Lititz, Columbia, New Holland, Ephrata",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Lebanon County Lebanon, Palmyra, Annville, Hershey",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Lebanon County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Lebanon, Palmyra, Annville, Hershey",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Lehigh County Allentown, Bethlehem, Emmaus, Whitehall, Fogelsville",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Lehigh County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Allentown, Bethlehem, Emmaus, Whitehall, Fogelsville",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Luzerne County Wilkes-Barre",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Luzerne County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Wilkes-Barre",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Monroe County Kunkletown, East Stroudsburg",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Monroe County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Kunkletown, East Stroudsburg",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Montgomery County Norristown, Pottstown, King of Prussia, Lansdale, Willow Grove",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Montgomery County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Norristown, Pottstown, King of Prussia, Lansdale, Willow Grove",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Northampton County Easton, Northampton, Palmer",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Northampton County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Easton, Northampton, Palmer",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Northumberland County Sunbury, Shamokin, Elysburg",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Northumberland County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Sunbury, Shamokin, Elysburg",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Perry County Newport",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Perry County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-muted-foreground",
+          "text": "Newport",
+          "color": "rgb(104, 111, 125)",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "cls": "reveal",
+          "text": "Philadelphia County Center City and Surrounding City Limits",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(227, 229, 232)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-lg",
+          "text": "Philadelphia County",
+          "color": "rgb(10, 18, 31)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28px",
+          "tracking": "-0.36px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "Contact Us Today for a Security Service Quote",
+      "background": "rgb(7, 14, 23)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "tactical-frame",
+          "text": "DISPATCH PORTAL Contact Us Today for a Security Service Quote Professional prote",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(16, 30, 45)",
+          "border": "1px solid rgba(255, 255, 255, 0.1)",
+          "borderRadius": "16px",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-h2",
+          "text": "Contact Us Today for a Security Service Quote",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "44px",
+          "tracking": "-0.8px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "Professional protection begins with a tailored assessment. Connect with our regi",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "div",
+          "cls": "w-10",
+          "color": "rgb(10, 18, 31)",
+          "border": "1px solid rgb(219, 164, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(219, 164, 0)",
+          "width": 20,
+          "height": 20,
+          "viewBox": "0 0 24 24",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "text-2xl",
+          "text": "610-562-0971",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "32px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-sm",
+          "text": "16600 Pottsville Pike Hamburg, PA 19526 610-562-0971",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-dark-foreground",
+          "text": "610-562-0971",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "cls": "text-sm",
+          "text": "3405 North 6th Street, Suite 204 Harrisburg, PA 17110 717-480-2961",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-dark-foreground",
+          "text": "717-480-2961",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "text-dark-foreground",
+          "text": "jemes@kresecurity.com",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "text-dark-foreground",
+          "text": "financial@kresecurity.com",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "a",
+          "cls": "text-dark-foreground",
+          "text": "scheduling@kresecurity.com",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "input",
+          "cls": "w-full",
+          "color": "rgb(250, 250, 250)",
+          "backgroundColor": "rgb(7, 14, 23)",
+          "border": "1px solid rgb(32, 44, 60)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "textarea",
+          "cls": "w-full",
+          "color": "rgb(250, 250, 250)",
+          "backgroundColor": "rgb(7, 14, 23)",
+          "border": "1px solid rgb(32, 44, 60)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "w-full",
+          "text": "Submit Request",
+          "color": "rgb(10, 18, 31)",
+          "backgroundColor": "rgb(219, 164, 0)",
+          "borderRadius": "8px",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "3.2px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "uppercase"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "Site footer (port into Footer.astro)",
+      "background": "rgb(7, 14, 23)",
+      "elements": [
+        {
+          "tag": "img",
+          "cls": "h-full",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-xl",
+          "text": "KRE SECURITY",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "20px",
+          "tracking": "-0.4px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "text-xs",
+          "text": "LLC.",
+          "color": "rgb(219, 164, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Space Grotesk"
+        },
+        {
+          "tag": "p",
+          "cls": "text-dark-muted-foreground",
+          "text": "KRE Security provides armed and unarmed guards, patrols, investigations, and tra",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-dark-foreground",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(250, 250, 250)",
+          "fill": "rgb(250, 250, 250)",
+          "width": 24,
+          "height": 24,
+          "viewBox": "0 0 24 24",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-sm",
+          "text": "Main Office",
+          "color": "rgb(219, 164, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.6px",
+          "tracking": "-0.32px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "16600 Pottsville Pike",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "p",
+          "text": "Hamburg, PA 19526",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "p",
+          "cls": "pt-2",
+          "text": "Main: 610-562-0971",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-dark-foreground",
+          "text": "610-562-0971",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Lancaster/Lebanon: 717-450-7632",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-dark-foreground",
+          "text": "717-450-7632",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Schuylkill: 570-399-1010",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-dark-foreground",
+          "text": "570-399-1010",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Harrisburg: 717-480-2961",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-dark-foreground",
+          "text": "717-480-2961",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-sm",
+          "text": "Quick Links",
+          "color": "rgb(219, 164, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.6px",
+          "tracking": "-0.32px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Home",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Home",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "About",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "About",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Services",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Services",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Employment",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Employment",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Contact",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Contact",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Blog",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Blog",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Sitemap",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Sitemap",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "div",
+          "cls": "border-t",
+          "text": "Proud Member & Supporter ISNetworld NASRO Greater Reading Chamber Alliance North",
+          "color": "rgb(250, 250, 250)",
+          "border": "1px solid rgb(32, 44, 60)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-sm",
+          "text": "Proud Member & Supporter",
+          "color": "rgb(219, 164, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "25.6px",
+          "tracking": "-0.32px",
+          "fontFamily": "Space Grotesk",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "ISNetworld",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "ISNetworld",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "NASRO",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "NASRO",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Greater Reading Chamber Alliance",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Greater Reading Chamber Alliance",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Northeast Berks Chamber",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Northeast Berks Chamber",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "PA State Association of County Fairs",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "PA State Association of County Fairs",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Harrisburg Regional Chamber & CREDC",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Harrisburg Regional Chamber & CREDC",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "PALI",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "PALI",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "Alvernia University",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Alvernia University",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "li",
+          "text": "National Eagle Scout Association",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "National Eagle Scout Association",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "25.6px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "div",
+          "cls": "border-t",
+          "text": "© 2026 KRE Security LLC.. License No. 84. Veteran Supported Firm. Serving 22+ Co",
+          "color": "rgb(250, 250, 250)",
+          "border": "1px solid rgb(32, 44, 60)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "p",
+          "cls": "text-xs",
+          "text": "© 2026 KRE Security LLC.. License No. 84. Veteran Supported Firm.",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "p",
+          "cls": "text-xs",
+          "text": "Serving 22+ Counties in Pennsylvania",
+          "color": "rgb(213, 219, 227)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "24px",
+          "tracking": "0.64px",
+          "fontFamily": "Manrope",
+          "textTransform": "uppercase"
+        },
+        {
+          "tag": "div",
+          "text": "Web Design and SEO by twalkerco",
+          "color": "rgb(250, 250, 250)",
+          "border": "1px solid rgba(128, 128, 128, 0.2)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "24px",
+          "fontFamily": "Manrope"
+        },
+        {
+          "tag": "a",
+          "text": "Web Design and SEO by twalkerco",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "12px",
+          "ownText": false,
+          "leading": "12px",
+          "fontFamily": "Manrope",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Web Design and SEO by twalkerco",
+          "color": "rgb(250, 250, 250)",
+          "fontSize": "12px",
+          "ownText": true,
+          "leading": "12px",
+          "fontFamily": "Manrope"
+        }
+      ]
+    }
+  ],
+  "imageTreatments": [
+    {
+      "src": "https://kre-security.netlify.app/images/lib/The-Buck-photo-320.webp",
+      "fileName": "The-Buck-photo-320.webp",
+      "filter": "brightness(0.75) grayscale(1)",
+      "height": 889,
+      "objectFit": "cover"
+    }
+  ],
+  "renderedSurfaces": [
+    {
+      "selector": "[id=\"trust\"] > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://kre-security.netlify.app/images/lib/63861c_968d1a04a06a425891fcc91210106642-mv2-768.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "[id=\"advantages\"] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://kre-security.netlify.app/images/lib/The-Buck-photo-320.webp",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0% 0%",
+      "layers": [
+        {
+          "target": "[id=\"advantages\"] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "relation": "positioned-child",
+          "bounds": {
+            "left": 0,
+            "top": 0,
+            "width": 1,
+            "height": 1
+          },
+          "paint": {
+            "color": "rgba(0, 0, 0, 0)",
+            "image": "linear-gradient(to top in oklab, rgb(7, 14, 23) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%)",
+            "opacity": 0.6,
+            "blendMode": "normal",
+            "zIndex": "auto",
+            "box": {
+              "width": "711.328px",
+              "height": "889.156px",
+              "top": "0px",
+              "right": "0px",
+              "bottom": "0px",
+              "left": "0px",
+              "position": "absolute",
+              "transform": "none"
+            }
+          }
+        }
+      ],
+      "observation": "paint-layers-observed"
+    }
+  ],
+  "floatingOverlays": [],
+  "positionedOverlays": [],
+  "captureViewport": 1920,
+  "hiddenImages": [],
+  "elementorStylesheets": []
+}

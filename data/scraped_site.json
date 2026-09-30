@@ -1,0 +1,310 @@
+{
+  "success": true,
+  "url": "https://kre-security.netlify.app/",
+  "structured": {
+    "title": "Security Services in Pennsylvania | KRE Security",
+    "description": "KRE Security provides armed and unarmed guards, patrols, investigations, and training across Pennsylvania. Contact our Hamburg team for 24-hour support.",
+    "url": "https://kre-security.netlify.app/",
+    "imageCount": 74,
+    "branding": {
+      "colors": {
+        "primary": "#DBA400",
+        "secondary": "#0B1522",
+        "accent": "#DBA400",
+        "background": "#F7F7F7",
+        "textPrimary": "#0B1522",
+        "link": "#202C3C"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Manrope",
+          "heading": "Space Grotesk"
+        },
+        "fontStacks": {
+          "heading": [
+            "Space Grotesk",
+            "ui-sans-serif",
+            "system-ui",
+            "sans-serif"
+          ],
+          "body": [
+            "Manrope",
+            "ui-sans-serif",
+            "system-ui",
+            "sans-serif"
+          ],
+          "paragraph": [
+            "Space Grotesk",
+            "ui-sans-serif",
+            "system-ui",
+            "sans-serif"
+          ]
+        },
+        "fontSizes": {
+          "h1": "62.4px",
+          "h2": "28px",
+          "body": "16px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 4,
+        "borderRadius": "8px"
+      },
+      "logo": "https://kre-security.netlify.app/images/kre-security-gold-logo.webp",
+      "favicon": "https://kre-security.netlify.app/images/kre-security-gold-logo.webp",
+      "faviconCdn": "https://pagesmith-cdn.com/fe6bcc20/images/kre-security-gold-logo-670a49-1024.webp"
+    },
+    "pages": [
+      {
+        "slug": "index",
+        "path": "/",
+        "title": "Security Services in Pennsylvania | KRE Security",
+        "file": "data/pages/index.md"
+      }
+    ],
+    "availablePages": [
+      {
+        "path": "/security-services-pa/",
+        "label": "Security Services Pa",
+        "slug": "security-services-pa",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/security-guards-pa/",
+        "label": "Security Guards Pa",
+        "slug": "security-guards-pa",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/armed-security-pa/",
+        "label": "Armed Security Pa",
+        "slug": "armed-security-pa",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/armed-security-guards-quakertown-pa/",
+        "label": "Armed Security Guards Quakertown Pa",
+        "slug": "armed-security-guards-quakertown-pa",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/vehicle-patrol/",
+        "label": "Vehicle Patrol",
+        "slug": "vehicle-patrol",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/security-checks/",
+        "label": "Security Checks",
+        "slug": "security-checks",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/school-security/",
+        "label": "School Security",
+        "slug": "school-security",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/logistical-security/",
+        "label": "Logistical Security",
+        "slug": "logistical-security",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/warehouse-distribution-security/",
+        "label": "Warehouse Distribution Security",
+        "slug": "warehouse-distribution-security",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/fire-watch/",
+        "label": "Fire Watch",
+        "slug": "fire-watch",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/school-event-staff/",
+        "label": "School Event Staff",
+        "slug": "school-event-staff",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/event-traffic-control/",
+        "label": "Event Traffic Control",
+        "slug": "event-traffic-control",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/armed-money-escorts/",
+        "label": "Armed Money Escorts",
+        "slug": "armed-money-escorts",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/in-home-security/",
+        "label": "In Home Security",
+        "slug": "in-home-security",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/private-investigations/",
+        "label": "Private Investigations",
+        "slug": "private-investigations",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/process-services/",
+        "label": "Process Services",
+        "slug": "process-services",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/first-aid-training/",
+        "label": "First Aid Training",
+        "slug": "first-aid-training",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/act-67-certified-services/",
+        "label": "Act 67 Certified Services",
+        "slug": "act-67-certified-services",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/employment/",
+        "label": "Employment",
+        "slug": "employment",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/employee-application/",
+        "label": "Employee Application",
+        "slug": "employee-application",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/testimonials/",
+        "label": "Testimonials",
+        "slug": "testimonials",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/security-company-faq/",
+        "label": "Security Company Faq",
+        "slug": "security-company-faq",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/contact/",
+        "label": "Contact",
+        "slug": "contact",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/blog/",
+        "label": "Blog",
+        "slug": "blog",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/post/building-safer-cities/",
+        "label": "Building Safer Cities",
+        "slug": "post-building-safer-cities",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/post/6-kre-school-security-division-just-attended/",
+        "label": "6 Kre School Security Division Just Attended",
+        "slug": "post-6-kre-school-security-division-just-attended",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/post/admissions-theft-found-at-a-local-event/",
+        "label": "Admissions Theft Found At A Local Event",
+        "slug": "post-admissions-theft-found-at-a-local-event",
+        "scraped": false,
+        "group": "main"
+      }
+    ],
+    "siteStructure": {
+      "mainNavPaths": [
+        "/security-services-pa/",
+        "/security-guards-pa/",
+        "/armed-security-pa/",
+        "/armed-security-guards-quakertown-pa/",
+        "/vehicle-patrol/",
+        "/security-checks/",
+        "/school-security/",
+        "/logistical-security/",
+        "/warehouse-distribution-security/",
+        "/fire-watch/",
+        "/school-event-staff/",
+        "/event-traffic-control/",
+        "/armed-money-escorts/",
+        "/in-home-security/",
+        "/private-investigations/",
+        "/process-services/",
+        "/first-aid-training/",
+        "/act-67-certified-services/",
+        "/employment/",
+        "/employee-application/",
+        "/testimonials/",
+        "/security-company-faq/",
+        "/contact/",
+        "/blog/",
+        "/post/building-safer-cities/",
+        "/post/6-kre-school-security-division-just-attended/",
+        "/post/admissions-theft-found-at-a-local-event/"
+      ],
+      "footerPaths": [
+        "/sitemap/"
+      ],
+      "otherLanguageRoots": []
+    },
+    "pageInventory": "27 main navigation pages"
+  },
+  "metadata": {
+    "scraper": "firecrawl-crawl-endpoint",
+    "timestamp": "2026-09-30T14:44:04.480Z",
+    "homepageContentLength": 13891,
+    "imageCount": 74,
+    "hasBranding": true,
+    "hasElementorEnrichment": false,
+    "hasVisibleIr": false,
+    "pagesDiscovered": 27,
+    "pagesScraped": 1,
+    "screenshotUrl": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-68a0af24-b260-440d-8d85-29c515c8f068.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1791384231&Signature=ZYUSflfJUSzOuRJyp4%2FMxCDAmXJjoZ96lHZnaPaH%2B%2FXXzbLurzHyDlV8%2F%2BIOTS4EG2YsrSWz6oGQrnBYTTJcL64hzi%2F4f4%2BeNGX17QDnqvtDXmcAlFBwbRrL4QgF3bxY05T1SD7Lx7unq3QQ4JfclnSSOOy8VH%2BqPkf64CpD3vXrJU%2BbfNm4h%2BJWWzZGnm6EvlPLhgLit%2BF9a7dZD9IveOKapfAJVU1Nc%2BBX%2Fd4JhciGG8E76%2F6Jsh7eSUjGR4NkbYkBLW9mLQGdWcfJM%2BEOjCJzUHg2mA0EF6X2Iym9J4wNhjE3K0ZAE2xFW7lUg74i843xMYHLDVPeg49tA5NTCw%3D%3D",
+    "viewportScreenshots": [
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-0dddc464-2e9d-4fa6-a15a-0e30473c7690.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1791384231&Signature=fCMEKMHxnqH14Jd69JXdqnNCf2ntr2ltO1fhyl%2FJrA575nGh8Tm5QCuBsvoaK%2BGMXPDVjT8qR1j%2B9nu8q%2Bp90bbLLOZBU7AjUaKytkfo70hsgid89jH%2FP0bi15axYfne%2FSa1UUGc2bOcm5AQPlASDxhHQ4iCE4OcWG9JmMHnF%2Fj95dpSI9rUAUDSoE7tfMvGJaTHETx9CMmk8wGnoBv%2B3zbi5bdsYI2mKN%2B%2FbphNiJ8ZhYkWOZwE5S%2Ft887RLAuWPWZZcoQfmZaZToQcGvLzjjHFwg2TxtbBLCs6aGYSiLXRDNfHuyY%2FlPBjnUZcyKDWZVaJVSHE%2BkTXEj%2FTHrphcA%3D%3D",
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-19585cc0-17a7-426e-87f8-8d50a5733b46.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1791384235&Signature=U%2FATE8UYsVRbsiALdQ4OMW%2FDBcoATAdpu3OHY%2BY%2BNVeejV3p%2B8rjdmYDC7%2FNm3fblEdTalRXYFSlTE2ITMgqm23bR3APhzu3hf8lqPCCOBoUBbXo8fPCwkEcvfq7GyPZl9C1EK8SY04o6PutnEiBTsLY%2Fjq%2BmNGsVWNKupoJeXykQAU89EGjgnyTss7MJ14E8tXpm4YV8KMbCDjxNul5WCdSWBv82T4vhCjCyL9D9z4%2FGBfDLfKahdXpg7FiP%2FcHC0HuS6m5FH%2FC7fIEFAXe0j1DBXTEc5%2B7lavL9OFEq2dxwenF58PWp9pe3axL7sMUDxRkq%2BSwJZphcAyhZRwW%2Bw%3D%3D",
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-9e7bc9c4-3a31-481c-8792-3f94518ddb8b.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1791384238&Signature=IJhzUKt9KMW9mHhwVQrW6%2BI%2F7gFFIUYB3ijyzXU6B%2FGfZdYF6Vr%2BE4Je%2FRPxgLv7Oupln7UmaKDGBFYvkmNZBLUA2EaF%2BPZcJIJzyFbYVVxNVZSgBvgIndwSA5zjJ%2FllMdcW%2FP2FFhXn46R5fVoA5M4PzLh%2FbI7ObQNlTrOL%2BrPM%2BZBmgseJn8fEoMQNyn9Gmg8xz%2F0oydVI7dGPsqYKsgqO5%2FnBXdwJN4dcYh5IE%2BvbL0%2Bn1RGu0Z%2F5VNy%2BGeO%2F5%2Fa9Zt77UqMrRO6es02EeAx6q5xK4EqCp%2B5WWbfympwq3RTTe1a4KQejQ2ZucIXUHycng6OtXNKv8BAO2QpDuw%3D%3D"
+    ]
+  }
+}

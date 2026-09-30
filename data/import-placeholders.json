@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "paths": [
+    "src/pages/blog.astro",
+    "src/pages/post/6-kre-school-security-division-just-attended.astro",
+    "src/pages/post/admissions-theft-found-at-a-local-event.astro",
+    "src/pages/post/building-safer-cities.astro",
+    "src/pages/sitemap.astro"
+  ]
+}

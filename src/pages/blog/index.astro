@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+
+const posts = await getCollection('blog');
+const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const pageTitle = `Recent News & Security Updates | ${SITE.name}`;
+const pageDescription = "Stay updated with the latest security insights, firm news, and safety protocols from KRE Security's team of professionals serving Pennsylvania.";
+---
+
+<BaseLayout 
+  title={pageTitle} 
+  description={pageDescription}
+  headerVariant="transparent"
+>
+  <section class="bg-dark-background pt-[var(--nav-height)] border-b border-dark-border/40 relative overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(at_85%_15%,_rgb(21,37,53)_0%,_rgba(0,0,0,0)_55%)] opacity-50 pointer-events-none"></div>
+    <Container class="relative z-10 pt-24 pb-20">
+      <div class="max-w-3xl">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-[22px] h-[2px] bg-primary"></div>
+          <span class="text-primary font-sans font-bold text-[16px] tracking-[1.28px] uppercase">
+            Intel & Analysis
+          </span>
+        </div>
+        <h1 class="text-h1 text-white font-bold leading-tight tracking-[-3.432px] font-heading mb-6">
+          Building Safer <span class="text-primary block">Communities.</span>
+        </h1>
+        <p class="text-[18px] leading-[32.4px] text-dark-muted-foreground font-sans max-w-2xl">
+          Comprehensive updates, technical security bulletins, and professional safety guidance from the KRE Security leadership team.
+        </p>
+      </div>
+    </Container>
+  </section>
+
+  <section class="bg-background py-24">
+    <Container>
+      {sortedPosts.length > 0 ? (
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {sortedPosts.map((post) => (
+            <article class="bg-white border border-[#ECEEF1] rounded-xl p-7 shadow-sm hover:-translate-y-2 hover:shadow-xl transition-all duration-300 flex flex-col">
+              <div class="flex items-center gap-3 mb-4">
+                <span class="w-2 h-2 rounded-full bg-primary"></span>
+                <time datetime={post.data.pubDate.toISOString()} class="text-xs font-bold text-muted-foreground font-heading tracking-wider uppercase">
+                  {post.data.pubDate.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}
+                </time>
+              </div>
+
+              <h2 class="text-[24px] font-bold font-heading text-foreground mb-4 leading-[1.3] group">
+                <a href={`/blog/${post.slug}`} class="hover:text-primary transition-colors">
+                  {post.data.title}
+                </a>
+              </h2>
+
+              {post.data.description && (
+                <p class="text-[15px] leading-[25px] text-muted-foreground font-sans mb-8 line-clamp-3">
+                  {post.data.description}
+                </p>
+              )}
+
+              <div class="mt-auto pt-6 border-t border-border/50">
+                <a 
+                  href={`/blog/${post.slug}`} 
+                  class="text-xs uppercase font-bold tracking-[0.96px] text-foreground inline-flex items-center gap-2 hover:text-primary transition-colors"
+                >
+                  Read Full Article
+                  <span class="text-primary">→</span>
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-20 bg-surface rounded-2xl border border-dashed border-border">
+          <p class="text-muted-foreground font-sans italic">No security updates available at this time. Please check back soon.</p>
+        </div>
+      )}
+    </Container>
+  </section>
+
+  <section class="bg-[#102032] py-16">
+    <Container>
+      <div class="bg-secondary border border-dark-border rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="text-left">
+          <h2 class="text-2xl md:text-3xl font-bold font-heading text-white mb-2">Need immediate assistance?</h2>
+          <p class="text-dark-muted-foreground font-sans">Our dispatchers are standing by 24/7/365 across Pennsylvania.</p>
+        </div>
+        <a 
+          href="tel:610-562-0971" 
+          class="bg-primary text-primary-foreground font-bold font-display rounded-[10px] px-8 py-4 hover:bg-primary-hover transition-colors shadow-sm whitespace-nowrap"
+        >
+          610-562-0971 ↗
+        </a>
+      </div>
+    </Container>
+  </section>
+</BaseLayout>

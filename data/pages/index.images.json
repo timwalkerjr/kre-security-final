@@ -1,0 +1,102 @@
+[
+  {
+    "url": "https://pagesmith-cdn.com/fe6bcc20/images/kre-security-gold-logo-670a49-1024.webp",
+    "originalUrl": "https://kre-security.netlify.app/images/kre-security-gold-logo.webp",
+    "altText": "KRE Security",
+    "context": "Services",
+    "isLogo": true,
+    "originalWidth": 1024,
+    "originalHeight": 1226,
+    "hasTransparency": true,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/kre-security-gold-logo-670a49-1024.webp",
+        "width": 1024
+      },
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/kre-security-gold-logo-670a49-768.webp",
+        "width": 768
+      },
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/kre-security-gold-logo-670a49-640.webp",
+        "width": 640
+      },
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/kre-security-gold-logo-670a49-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/fe6bcc20/images/63861c_968d1a04a06a425891fcc91210106642-mv2-768-9bd159-768.webp",
+    "originalUrl": "https://kre-security.netlify.app/images/lib/63861c_968d1a04a06a425891fcc91210106642-mv2-768.webp",
+    "altText": "Emergency Dispatch Center",
+    "context": "Section: 24-Hour Emergency Dispatch | TACTICAL ADVANTAGE",
+    "isLogo": false,
+    "originalWidth": 768,
+    "originalHeight": 337,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/63861c_968d1a04a06a425891fcc91210106642-mv2-768-9bd159-768.webp",
+        "width": 768
+      },
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/63861c_968d1a04a06a425891fcc91210106642-mv2-768-9bd159-640.webp",
+        "width": 640
+      },
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/63861c_968d1a04a06a425891fcc91210106642-mv2-768-9bd159-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/fe6bcc20/images/The-Buck-photo-320-db0401-320.webp",
+    "originalUrl": "https://kre-security.netlify.app/images/lib/The-Buck-photo-320.webp",
+    "altText": "Professional Security Guard",
+    "context": "Section: Monitoring | Field Operations",
+    "isLogo": false,
+    "originalWidth": 320,
+    "originalHeight": 372,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/The-Buck-photo-320-db0401-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/fe6bcc20/images/39725c_7c8af4347a884406b3e0eb9384b1e510-mv2-1024-fba4f8-1024.webp",
+    "originalUrl": "https://kre-security.netlify.app/images/lib/39725c_7c8af4347a884406b3e0eb9384b1e510-mv2-1024.webp",
+    "altText": "PA Security Service Map",
+    "context": "Section: Wayne County | Regional Hotlines",
+    "isLogo": false,
+    "originalWidth": 1024,
+    "originalHeight": 539,
+    "hasTransparency": true,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/39725c_7c8af4347a884406b3e0eb9384b1e510-mv2-1024-fba4f8-1024.webp",
+        "width": 1024
+      },
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/39725c_7c8af4347a884406b3e0eb9384b1e510-mv2-1024-fba4f8-768.webp",
+        "width": 768
+      },
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/39725c_7c8af4347a884406b3e0eb9384b1e510-mv2-1024-fba4f8-640.webp",
+        "width": 640
+      },
+      {
+        "url": "https://pagesmith-cdn.com/fe6bcc20/images/39725c_7c8af4347a884406b3e0eb9384b1e510-mv2-1024-fba4f8-320.webp",
+        "width": 320
+      }
+    ]
+  }
+]

@@ -1,0 +1,448 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const galleryItems = [
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_86c608ccdb0d4da3b8fcae29c1d66966-mv2-249-b3293b-249.webp',
+    alt: 'Assets investigations eastern PA',
+    title: 'Assets Investigations',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_cb3f85e968114b56ae9df1c5c7d2070b-mv2-249-610804-249.webp',
+    alt: 'Accident investigation eastern PA',
+    title: 'Accident Investigation',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_1e2fcb7bd06c47daa05d6a0123c21dba-mv2-249-43185b-249.webp',
+    alt: 'Arson investigation eastern PA',
+    title: 'Arson Investigation',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_5a11581892684bb2b92d20d8f345a562-mv2-249-43654f-249.webp',
+    alt: 'Aerial photography eastern PA',
+    title: 'Aerial Photography',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_4fad465f794a469fbba6908140d4d1dc-mv2-249-7f93b2-249.webp',
+    alt: 'Security for banks in eastern PA',
+    title: 'Banking Community',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_a3ed82b6ac544fcfa158aa82cdaf287e-mv2-249-3a7705-249.webp',
+    alt: 'Private investigator Berks County PA',
+    title: 'Nursing Home Abuse',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_763698ed78cd45928029cc4654c0c7e5-mv2-249-07a95d-249.webp',
+    alt: 'Child abuse investigations reading',
+    title: 'Child Abuse Investigation',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_467643f3786a417fa8f521861f6674f0-mv2-249-d0d4fc-249.webp',
+    alt: 'Custody support near reading PA',
+    title: 'Custody & Support Issues',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_ca4dc36d09fd4b40a790fbff199405ed-mv2-249-f23c72-249.webp',
+    alt: 'Civil litigation support Montgomery',
+    title: 'Civil Litigation Support',
+  },
+];
+
+const serviceTypes = [
+  'Accident Investigation',
+  'Accident Reconstruction',
+  'Activity Checks',
+  'Adoptions / Biological Parents',
+  'Aerial Photography',
+  'Arson Investigation',
+  'Assets Investigation',
+  'Attempt To Locate',
+  'Audio/Video Forensics',
+  'Aviation Issues',
+  'Background Investigation',
+  'Banking Community',
+  'Blood Stain Analysis',
+  'Cellular Forensics',
+  'Cheating Spouse',
+  'Child Abuse Investigation',
+  'Child Custody Investigations',
+  'Civil Investigation/Litigation Support',
+  'Civil Litigation Support',
+  'Cohabitation/Alimony Investigations',
+  'Computer Forensics',
+  'Computer Forensics Investigations',
+  'Corporate Investigation',
+  'Court Record Research',
+  'Covert CCTV Installation',
+  'Criminal Defense Investigations',
+  'Crisis Management',
+  'CTPAT Compliance',
+  'Custody & Support Issues',
+  'Database Searches',
+  'De-Bugging Services',
+  'DMV Information',
+  'Domestic Investigation',
+  'Drug Investigation',
+  'Due Diligence',
+  'Employment/Pre-Employment Issues',
+  'Environmental Issues/Investigation',
+  'Ethics Issues',
+  'Expert Witness',
+  'Explosives',
+  'Financial Investigation',
+  'Fingerprinting',
+  'Forensic Accounting',
+  'Genealogy Research',
+  'General Investigations',
+  'GPS Tracking',
+  'Homicide/Death Investigation',
+  'Insurance/Fraud Investigation',
+  'International Investigation',
+  'Interviews/Witness Locates',
+  'Major Theft',
+  'Marine Related Issues',
+  'Medical Malpractice',
+  'Missing Persons',
+  'Nursing Home Abuse',
+  'Paranormal Investigation',
+  'Personal Injury Investigation',
+  'Photography',
+  'Polygraph',
+  'Post Conviction Relief Act',
+  'Process Services',
+  'Product Counterfeiting',
+  'Product Diversion',
+  'Product Liability',
+  'Protective Service',
+  'Real Estate Investigation',
+  'Risk Management',
+  'School Security',
+  'Security Consulting/Training',
+  'Security Officer Deployment',
+  'Security Surveys',
+  'Sex Crimes',
+  'Statement Analysis',
+  'Surveillance Investigations',
+  'Technical Countermeasures',
+  'Undercover Operations',
+  'White Collar Crime',
+  'Workers Compensation Investigation',
+];
+
+const stripItems = [
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_a272516e4fa8439bbe716d944eb3148f-mv2-249-e56324-249.webp',
+    alt: 'Private investigator Bucks County',
+    title: 'Criminal Defense Investigations',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_e230718b9ea643a2afff68600a7065bc-mv2-249-473ab9-249.webp',
+    alt: 'Domestic violence private investigator Lehigh',
+    title: 'Domestic Investigations',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_40dd4740abfa44788b33dd10823d839c-mv2-249-d6fa1f-249.webp',
+    alt: 'Private investigator for cheating spouse Berks',
+    title: 'Cheating Spouse',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_0ca781b46edd4907a9d6131400942c17-mv2-249-895824-249.webp',
+    alt: 'Financial private investigators',
+    title: 'Financial Investigation',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_3cd3d8abc8494c5aa9c9bffb7cc11482-mv2-249-ba394b-249.webp',
+    alt: 'Fingerprinting and private investigators',
+    title: 'Fingerprinting',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_6e1e4fcc3dd940518701cf28ecf5d704-mv2-249-cff698-249.webp',
+    alt: 'Homicide private investigators',
+    title: 'Homicide/Death Investigation',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_5dfd99ec32d24f7eaac23656994d7dfb-mv2-249-d61fb2-249.webp',
+    alt: 'Major theft private investigators',
+    title: 'Major Theft',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_4de679ce448340d3959138760475687a-mv2-249-2e6dfb-249.webp',
+    alt: 'School private investigators',
+    title: 'School Security',
+  },
+  {
+    image: 'https://pagesmith-cdn.com/fe6bcc20/images/39725c_e0319929c0654d17a6db72fdb9808be7-mv2-249-b24262-249.webp',
+    alt: 'Surveillance private investigators',
+    title: 'Surveillance Investigations',
+  },
+];
+---
+
+<BaseLayout
+  title="Private Investigators in Pennsylvania | KRE Security"
+  description="KRE Security provides private investigations in Pennsylvania. Discuss your case with a team focused on gathering facts, evidence, and confidential information."
+  headerVariant="transparent"
+>
+  <main data-ps="src/pages/private-investigations.astro:9nyb11">
+    <!-- Hero Section -->
+    <section class="bg-dark-background pt-32 pb-20 relative overflow-hidden" id="pi-hero" data-ps="src/pages/private-investigations.astro:y6brye">
+      <div class="max-w-7xl mx-auto px-6" data-ps="src/pages/private-investigations.astro:1i7wdd">
+        <div class="grid lg:grid-cols-2 gap-12 items-center" data-ps="src/pages/private-investigations.astro:1i7wdz">
+          <div data-ps="src/pages/private-investigations.astro:1i7we0">
+            <span class="text-primary font-display font-bold text-xs uppercase tracking-widest mb-6 block" data-ps="src/pages/private-investigations.astro:xkhytl">
+              [ Dispatch Status: Active ]
+            </span>
+            <h1 class="font-display font-bold text-h1 text-dark-foreground uppercase tracking-tight leading-tight mb-6" data-ps="src/pages/private-investigations.astro:3stqs0">
+              Qualified Pennsylvania Private Investigators &amp; Process Services
+            </h1>
+            <p class="font-sans text-dark-muted-foreground text-lg leading-relaxed mb-4" data-ps="src/pages/private-investigations.astro:wi9b36">
+              Our professional private investigators use a number of surveillance and investigative techniques to gather accurate information on any subject or situation in question.
+            </p>
+            <p class="font-sans text-dark-muted-foreground leading-relaxed mb-8" data-ps="src/pages/private-investigations.astro:wi9b35">
+              Our private investigators have a keen eye, excellent observation skills, and an analytical mind to uncover facts and evidence for our valued customers. We perform cases locally and nationally.
+            </p>
+            <div class="flex flex-wrap gap-4" data-ps="src/pages/private-investigations.astro:1i7we1">
+              <a
+                href="/#contact"
+                class="inline-block bg-primary text-primary-foreground font-display font-bold text-sm uppercase tracking-widest px-8 py-4 border-2 border-primary hover:bg-primary-hover transition-colors duration-150"
+               data-ps="src/pages/private-investigations.astro:pebefx">
+                Contact Us to Get Started
+              </a>
+              <a
+                href="tel:6105620971"
+                class="inline-block bg-transparent text-dark-foreground font-display font-bold text-sm uppercase tracking-widest px-8 py-4 border-2 border-dark-border hover:border-primary hover:text-primary transition-colors duration-150"
+               data-ps="src/pages/private-investigations.astro:pebefw">
+                610-562-0971
+              </a>
+            </div>
+          </div>
+
+          <!-- Support Card Aside -->
+          <aside
+            class="kre-support bg-[#102032] border border-[#dbab00]/25 rounded-[20px] p-6 lg:p-8"
+            aria-labelledby="support-title"
+           data-ps="src/pages/private-investigations.astro:17qwpi">
+            <div class="flex items-start gap-4 mb-6" data-ps="src/pages/private-investigations.astro:1i7we2">
+              <div class="w-12 h-14 flex-shrink-0" data-ps="src/pages/private-investigations.astro:1i7we3">
+                <img
+                  src="https://pagesmith-cdn.com/fe6bcc20/images/kre-security-gold-logo-670a49-1024.webp"
+                  alt="KRE Security"
+                  width="1024"
+                  height="1226"
+                  class="w-full h-full object-contain" data-ps="src/pages/private-investigations.astro:1017yb" />
+              </div>
+              <div data-ps="src/pages/private-investigations.astro:1i7we4">
+                <span class="text-[#dba400] text-xs font-bold tracking-[1.28px] uppercase block mb-1" data-ps="src/pages/private-investigations.astro:xkhytk">
+                  KRE SECURITY, LLC
+                </span>
+                <h2 id="support-title" class="text-white font-display text-2xl font-bold tracking-tight mb-1" data-ps="src/pages/private-investigations.astro:avl6g8">
+                  How can we help?
+                </h2>
+                <p class="text-dark-muted-foreground text-sm flex items-center gap-2" data-ps="src/pages/private-investigations.astro:wi9b34">
+                  <span class="w-2 h-2 rounded-full bg-[#dba400] inline-block" data-ps="src/pages/private-investigations.astro:xkhytj"></span>
+                  24-hour emergency dispatch
+                </p>
+              </div>
+            </div>
+
+            <div class="space-y-3" data-ps="src/pages/private-investigations.astro:1i7we5">
+              <a
+                href="/act-67-certified-services/"
+                class="bg-white/[0.02] border border-white/[0.086] rounded-xl p-3.5 flex items-center justify-between hover:bg-primary/[0.06] hover:border-primary/50 transition-all text-white group"
+               data-ps="src/pages/private-investigations.astro:pebefv">
+                <div class="flex items-center gap-3" data-ps="src/pages/private-investigations.astro:1i7we6">
+                  <span class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center font-bold text-sm" data-ps="src/pages/private-investigations.astro:xkhyti">◇</span>
+                  <div data-ps="src/pages/private-investigations.astro:1i7we7">
+                    <strong class="font-display text-sm font-bold block text-white">Act 67 Training</strong>
+                    <small class="text-dark-muted-foreground text-xs block">School security training and certification</small>
+                  </div>
+                </div>
+                <span class="text-primary text-sm font-bold ml-3 group-hover:translate-x-0.5 transition-transform" data-ps="src/pages/private-investigations.astro:xkhyth">↗</span>
+              </a>
+
+              <a
+                href="/first-aid-training/"
+                class="bg-white/[0.02] border border-white/[0.086] rounded-xl p-3.5 flex items-center justify-between hover:bg-primary/[0.06] hover:border-primary/50 transition-all text-white group"
+               data-ps="src/pages/private-investigations.astro:pebefu">
+                <div class="flex items-center gap-3" data-ps="src/pages/private-investigations.astro:1i7we8">
+                  <span class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center font-bold text-sm" data-ps="src/pages/private-investigations.astro:xkhytg">+</span>
+                  <div data-ps="src/pages/private-investigations.astro:1i7weu">
+                    <strong class="font-display text-sm font-bold block text-white">First Aid Training</strong>
+                    <small class="text-dark-muted-foreground text-xs block">Explore our first aid training programs</small>
+                  </div>
+                </div>
+                <span class="text-primary text-sm font-bold ml-3 group-hover:translate-x-0.5 transition-transform" data-ps="src/pages/private-investigations.astro:xkhytf">↗</span>
+              </a>
+
+              <a
+                href="tel:610-562-0971"
+                class="bg-white/[0.02] border border-white/[0.086] rounded-xl p-3.5 flex items-center justify-between hover:bg-primary/[0.06] hover:border-primary/50 transition-all text-white group"
+               data-ps="src/pages/private-investigations.astro:pebef8">
+                <div class="flex items-center gap-3" data-ps="src/pages/private-investigations.astro:1i7wev">
+                  <span class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center font-bold text-sm" data-ps="src/pages/private-investigations.astro:xkhyst">◷</span>
+                  <div data-ps="src/pages/private-investigations.astro:1i7wew">
+                    <strong class="font-display text-sm font-bold block text-white">24-hour emergency dispatch</strong>
+                    <small class="text-dark-muted-foreground text-xs block">610-562-0971</small>
+                  </div>
+                </div>
+                <span class="text-primary text-sm font-bold ml-3 group-hover:translate-x-0.5 transition-transform" data-ps="src/pages/private-investigations.astro:xkhyss">↗</span>
+              </a>
+
+              <a
+                href="/employment/"
+                class="bg-white/[0.02] border border-white/[0.086] rounded-xl p-3.5 flex items-center justify-between hover:bg-primary/[0.06] hover:border-primary/50 transition-all text-white group"
+               data-ps="src/pages/private-investigations.astro:pebef7">
+                <div class="flex items-center gap-3" data-ps="src/pages/private-investigations.astro:1i7wex">
+                  <span class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center font-bold text-sm" data-ps="src/pages/private-investigations.astro:xkhysr">+</span>
+                  <div data-ps="src/pages/private-investigations.astro:1i7wey">
+                    <strong class="font-display text-sm font-bold block text-white">KRE Job Openings</strong>
+                    <small class="text-dark-muted-foreground text-xs block">Explore careers with KRE Security</small>
+                  </div>
+                </div>
+                <span class="text-primary text-sm font-bold ml-3 group-hover:translate-x-0.5 transition-transform" data-ps="src/pages/private-investigations.astro:xkhysq">↗</span>
+              </a>
+            </div>
+
+            <p class="text-dark-muted-foreground text-xs text-center mt-6" data-ps="src/pages/private-investigations.astro:wi9b33">
+              Your total security professional.
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Base Section -->
+    <section class="bg-surface py-16" id="pi-clients" data-ps="src/pages/private-investigations.astro:y6bryf">
+      <div class="max-w-7xl mx-auto px-6" data-ps="src/pages/private-investigations.astro:1i7wez">
+        <div class="grid lg:grid-cols-2 gap-12" data-ps="src/pages/private-investigations.astro:1i7wf0">
+          <div data-ps="src/pages/private-investigations.astro:1i7wf1">
+            <p class="font-display text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3" data-ps="src/pages/private-investigations.astro:wi9b2h">
+              [ Client Base ]
+            </p>
+            <h2 class="font-display font-bold text-h3 text-foreground uppercase tracking-tight leading-tight mb-6" data-ps="src/pages/private-investigations.astro:avl6g7">
+              Diverse Clientele, Tailored Investigations
+            </h2>
+            <p class="font-sans text-foreground leading-relaxed mb-6" data-ps="src/pages/private-investigations.astro:wi9b2g">
+              Our firm specializes and handles numerous types of investigations with various scenarios. All casework is performed based on each client's needs.
+            </p>
+            <div class="grid grid-cols-2 gap-3 mb-8" data-ps="src/pages/private-investigations.astro:1i7wf2">
+              <div class="flex items-center gap-3 p-3 bg-background border border-border" data-ps="src/pages/private-investigations.astro:1i7wf3">
+                <span class="w-2 h-2 bg-primary flex-shrink-0" data-ps="src/pages/private-investigations.astro:xkhysp"></span>
+                <span class="font-sans text-sm font-bold text-foreground uppercase tracking-wide" data-ps="src/pages/private-investigations.astro:xkhyso">Private Citizens</span>
+              </div>
+              <div class="flex items-center gap-3 p-3 bg-background border border-border" data-ps="src/pages/private-investigations.astro:1i7wfp">
+                <span class="w-2 h-2 bg-primary flex-shrink-0" data-ps="src/pages/private-investigations.astro:xkhysn"></span>
+                <span class="font-sans text-sm font-bold text-foreground uppercase tracking-wide" data-ps="src/pages/private-investigations.astro:xkhysm">Attorneys</span>
+              </div>
+              <div class="flex items-center gap-3 p-3 bg-background border border-border" data-ps="src/pages/private-investigations.astro:1i7wfq">
+                <span class="w-2 h-2 bg-primary flex-shrink-0" data-ps="src/pages/private-investigations.astro:xkhysl"></span>
+                <span class="font-sans text-sm font-bold text-foreground uppercase tracking-wide" data-ps="src/pages/private-investigations.astro:xkhysk">Processing Services</span>
+              </div>
+              <div class="flex items-center gap-3 p-3 bg-background border border-border" data-ps="src/pages/private-investigations.astro:1i7wfr">
+                <span class="w-2 h-2 bg-primary flex-shrink-0" data-ps="src/pages/private-investigations.astro:xkhyry"></span>
+                <span class="font-sans text-sm font-bold text-foreground uppercase tracking-wide" data-ps="src/pages/private-investigations.astro:xkhyrx">Corporate Investigation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tactical Frame Gallery -->
+          <div class="tactical-frame bg-background p-8 relative" data-ps="src/pages/private-investigations.astro:1i7wfs">
+            <div class="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-primary -translate-x-px -translate-y-px" data-ps="src/pages/private-investigations.astro:1i7wft"></div>
+            <div class="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-primary translate-x-px translate-y-px" data-ps="src/pages/private-investigations.astro:1i7wfu"></div>
+            <p class="font-display text-xs font-bold uppercase tracking-widest text-muted-foreground mb-4" data-ps="src/pages/private-investigations.astro:wi9b2f">
+              [ Investigation Gallery ]
+            </p>
+            <div class="grid grid-cols-3 gap-3" data-ps="src/pages/private-investigations.astro:1i7wfv">
+              {
+                galleryItems.map((item, __psIdx) => (
+                  <div class="relative overflow-hidden aspect-square group" data-ps={`src/pages/private-investigations.astro:1i7wfw-${__psIdx}`}>
+                    <img
+                      src={item.image}
+                      alt={item.alt}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy" data-ps={`src/pages/private-investigations.astro:1017ya-${__psIdx}`} />
+                    <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pt-4 pb-1 px-1.5 text-center" data-ps={`src/pages/private-investigations.astro:1i7wfx-${__psIdx}`}>
+                      <span class="font-sans text-[11px] leading-tight font-medium text-white block" data-ps={`src/pages/private-investigations.astro:xkhyrw-${__psIdx}`}>
+                        {item.title}
+                      </span>
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Investigation Types Section -->
+    <section class="bg-background py-20" id="pi-services" data-ps="src/pages/private-investigations.astro:y6bryg">
+      <div class="max-w-7xl mx-auto px-6" data-ps="src/pages/private-investigations.astro:1i7wfy">
+        <div class="max-w-2xl mb-12" data-ps="src/pages/private-investigations.astro:w12qk6">
+          <p class="font-display text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3" data-ps="src/pages/private-investigations.astro:wi9b2e">
+            [ Investigation Types ]
+          </p>
+          <h2 class="font-display font-bold text-h2 text-foreground uppercase tracking-tight leading-tight mb-4" data-ps="src/pages/private-investigations.astro:avl6g6">
+            Providing Private Investigation Services For The Following:
+          </h2>
+          <p class="font-sans text-muted-foreground leading-relaxed" data-ps="src/pages/private-investigations.astro:wi9b2d">
+            Our comprehensive investigation capabilities span local and national cases, tailored to each client's specific needs.
+          </p>
+        </div>
+
+        <!-- 72 Investigation Services Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 mb-16" data-ps="src/pages/private-investigations.astro:w12qk5">
+          {
+            serviceTypes.map((type, __psIdx) => (
+              <div class="flex items-center gap-2 p-3 border border-border bg-surface hover:border-primary hover:bg-background transition-colors duration-150 group" data-ps={`src/pages/private-investigations.astro:w12qk4-${__psIdx}`}>
+                <span class="w-1.5 h-1.5 bg-primary flex-shrink-0 group-hover:shadow-[0_0_6px_var(--color-primary)]" data-ps={`src/pages/private-investigations.astro:xkhyrv-${__psIdx}`}></span>
+                <span class="font-sans text-xs text-foreground" data-ps={`src/pages/private-investigations.astro:xkhyru-${__psIdx}`}>{type}</span>
+              </div>
+            ))
+          }
+        </div>
+
+        <!-- 9 Square Image Strip -->
+        <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-2 mb-12" data-ps="src/pages/private-investigations.astro:w12qk3">
+          {
+            stripItems.map((item, __psIdx) => (
+              <div class="aspect-square overflow-hidden border border-border relative group" data-ps={`src/pages/private-investigations.astro:w12qk2-${__psIdx}`}>
+                <img
+                  src={item.image}
+                  alt={item.alt}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy" data-ps={`src/pages/private-investigations.astro:1017y9-${__psIdx}`} />
+                <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pt-3 pb-1 px-1 text-center" data-ps={`src/pages/private-investigations.astro:w12qk1-${__psIdx}`}>
+                  <span class="font-sans text-[9px] leading-tight font-medium text-white block truncate" data-ps={`src/pages/private-investigations.astro:xkhyrt-${__psIdx}`}>
+                    {item.title}
+                  </span>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+
+        <!-- Bottom CTA Bar -->
+        <div class="bg-dark-background p-8 flex flex-col md:flex-row items-center justify-between gap-6 relative" data-ps="src/pages/private-investigations.astro:w12qk0">
+          <div class="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-primary -translate-x-px -translate-y-px" data-ps="src/pages/private-investigations.astro:w12qjz"></div>
+          <div class="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-primary translate-x-px translate-y-px" data-ps="src/pages/private-investigations.astro:w12qjy"></div>
+          <div data-ps="src/pages/private-investigations.astro:w12qjx">
+            <p class="font-display text-xs font-bold uppercase tracking-widest text-primary mb-1" data-ps="src/pages/private-investigations.astro:wi9b2c">
+              [ KRE Investigations Division ]
+            </p>
+            <p class="font-sans text-dark-foreground text-lg" data-ps="src/pages/private-investigations.astro:wi9b2b">
+              Ready to discuss your case? Contact us today.
+            </p>
+          </div>
+          <a
+            href="/#contact"
+            class="inline-block bg-primary text-primary-foreground font-display font-bold text-sm uppercase tracking-widest px-8 py-4 border-2 border-primary hover:bg-primary-hover whitespace-nowrap transition-colors duration-150"
+           data-ps="src/pages/private-investigations.astro:pebef6">
+            Contact Us to Get Started
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

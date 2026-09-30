@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "siteUrl": "https://kre-security.netlify.app/",
+  "candidates": [
+    {
+      "family": "Space Grotesk",
+      "key": "space grotesk",
+      "verdict": "registry",
+      "slug": "space-grotesk",
+      "faces": 1,
+      "roles": [
+        "heading",
+        "theme-heading"
+      ],
+      "weights": [
+        700
+      ]
+    },
+    {
+      "family": "Manrope",
+      "key": "manrope",
+      "verdict": "registry",
+      "slug": "manrope",
+      "faces": 2,
+      "roles": [
+        "body",
+        "theme-body"
+      ],
+      "weights": [
+        400,
+        500,
+        700
+      ]
+    }
+  ],
+  "faces": [],
+  "stylesheets": {
+    "browserRules": 3,
+    "embedded": 2,
+    "fetched": 0,
+    "failed": 0,
+    "skipped": 0
+  },
+  "thirdPartyStylesheetHosts": [],
+  "installed": [],
+  "failures": []
+}
