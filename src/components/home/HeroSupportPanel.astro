@@ -1,0 +1,39 @@
+---
+const actions = [
+  { title: 'Act 67 Training', detail: 'School security training and certification', href: '/act-67-certified-services/', symbol: '◇' },
+  { title: 'First Aid Training', detail: 'Explore our first aid training programs', href: '/first-aid-training/', symbol: '+' },
+  { title: '24-hour emergency dispatch', detail: '610-562-0971', href: 'tel:610-562-0971', symbol: '◷' },
+  { title: 'KRE Job Openings', detail: 'Explore careers with KRE Security', href: '/employment/', symbol: '+' },
+];
+---
+<aside class="kre-support" aria-labelledby="support-title">
+      <div class="kre-support-heading"><div class="kre-support-brand"><img src="https://pagesmith-cdn.com/fe6bcc20/images/kre-security-gold-logo-670a49-1024.webp" alt="KRE Security" width="1024" height="1226" /></div><div class="kre-support-heading-copy"><span class="kre-panel-label">KRE SECURITY, LLC</span><h2 id="support-title">How can we help?</h2><p><span class="kre-status" aria-hidden="true"></span>24-hour emergency dispatch</p></div></div>
+      <div class="kre-support-links">
+        {actions.map(action => <a href={action.href} class="kre-support-link"><span class="kre-icon" aria-hidden="true">{action.symbol}</span><span><strong>{action.title}</strong><small>{action.detail}</small></span><span class="kre-arrow" aria-hidden="true">↗</span></a>)}
+      </div>
+      <p class="kre-support-note">Your total security professional.</p>
+    </aside>
+
+<style>
+.kre-support { --panel-gold: hsl(45 100% 43%); background:#102032; border:1px solid #dbab003f; border-radius:20px; padding:24px; box-shadow:0 24px 60px #0003; width:100%; max-width:520px; justify-self:end; color:#fafafa; }
+.kre-support-heading {display:grid;grid-template-columns:76px minmax(0,1fr);gap:32px;align-items:stretch;text-align:left;margin-bottom:22px;}
+.kre-support-brand {position:relative;}
+.kre-support-brand img {position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:left center;}
+.kre-support-heading-copy {min-width:0;}
+.kre-panel-label {font-size:16px;line-height:1.5;letter-spacing:.08em;color:var(--panel-gold);font-weight:700;}
+.kre-support h2 {font-family:var(--font-heading);font-size:28px;line-height:1.25;margin:7px 0 8px;letter-spacing:-.03em;text-transform:none;color:#fafafa;}
+.kre-support-heading p,.kre-support-note {font-size:16px;line-height:1.5;color:#d5dbe3;}
+.kre-status {display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--panel-gold);margin-right:6px;}
+.kre-support-links {display:grid;gap:10px;}
+.kre-support-link {display:flex;gap:12px;align-items:center;border:1px solid #ffffff16;border-radius:12px;padding:16px;background:#ffffff05;text-decoration:none;transition:background .2s,border-color .2s;}
+.kre-support-link:hover {background:#dbab0010;border-color:#dbab0080;}
+.kre-support-link:focus-visible {outline:3px solid var(--panel-gold);outline-offset:4px;}
+.kre-icon {display:grid;place-items:center;background:#dbab0018;color:var(--panel-gold);width:38px;height:38px;border-radius:9px;flex-shrink:0;font-size:24px;}
+.kre-support-link > span:nth-child(2) {min-width:0;}
+.kre-support-link strong {display:block;font-size:16px;line-height:1.4;font-weight:600;color:#fafafa;}
+.kre-support-link small {display:block;font-size:16px;line-height:1.5;color:#d5dbe3;margin-top:5px;}
+.kre-arrow {margin-left:auto;color:var(--panel-gold);}
+.kre-support-note {text-align:center;margin-top:19px;}
+@media(max-width:1023px) {.kre-support {justify-self:start;max-width:640px;}}
+@media(max-width:600px) {.kre-support {padding:18px;}.kre-support-heading {grid-template-columns:64px minmax(0,1fr);gap:24px;}.kre-support-link {padding:14px 12px;gap:10px;}}
+</style>
